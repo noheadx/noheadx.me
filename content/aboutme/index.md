@@ -1,7 +1,5 @@
 ---
-title: Who Am I
-date: "2025-10-10T19:05:00"
-draft: false
+title: 'Who I am'
 ---
 
 ### *"You are a fool if you just do as I say. You should think for yourself and come up with a better idea than mine!"*

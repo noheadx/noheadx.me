@@ -1,6 +1,5 @@
 ---
-categories:
-- Leadership
+categories: ['Leadership']
 date: "2022-04-04T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
 title: The step back

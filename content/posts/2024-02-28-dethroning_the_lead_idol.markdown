@@ -1,6 +1,5 @@
 ---
-categories:
-- Leadership
+categories: ['Leadership']
 date: "2024-02-28T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
 title: 'Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond'

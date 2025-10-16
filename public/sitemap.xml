@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/aboutme/</loc>
-    <lastmod>2025-10-10T19:05:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-10T19:00:00+00:00</lastmod>
   </url><url>
@@ -32,6 +29,9 @@
     <loc>http://localhost:1313/posts/2022-03-16-cto-trap/</loc>
     <lastmod>2022-03-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/culture/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</loc>
     <lastmod>2019-02-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -44,10 +44,10 @@
     <loc>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</loc>
     <lastmod>2018-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-  </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/aboutme/</loc>
   </url>
 </urlset>

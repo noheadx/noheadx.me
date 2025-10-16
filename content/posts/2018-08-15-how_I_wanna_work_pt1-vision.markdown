@@ -1,6 +1,5 @@
 ---
-categories:
-- Workplace
+categories: ['Workplace', 'Culture']
 date: "2018-08-15T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
 title: Creating a vision

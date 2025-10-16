@@ -1,6 +1,5 @@
 ---
-categories:
-- Leadership
+categories: ['Leadership']
 date: "2025-10-09T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
 title: 'Responsiblity of few: The CEO that could'

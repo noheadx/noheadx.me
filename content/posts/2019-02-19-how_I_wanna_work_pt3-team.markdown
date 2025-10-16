@@ -1,6 +1,5 @@
 ---
-categories:
-- Workplace
+categories: ['Workplace', 'Culture']
 date: "2019-02-19T00:00:00Z"
 title: To Evolve and Mingle
 ---

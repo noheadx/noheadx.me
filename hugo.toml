@@ -44,7 +44,6 @@ style = "github-dark"
   category = "categories"
   series = "series"
   tag = "tags"
-  author = "authors"
 
 # Social links
 [[params.social]]
@@ -64,6 +63,6 @@ style = "github-dark"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "About Me"
   weight = 2
   url = "aboutme/"

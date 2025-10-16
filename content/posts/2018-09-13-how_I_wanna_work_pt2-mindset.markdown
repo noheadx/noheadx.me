@@ -1,9 +1,8 @@
----
-categories:
-- Workplace
-date: "2018-09-13T00:00:00Z"
-title: The power of the mind
----
++++
+categories = ['Workplace', 'Culture']
+date = "2018-09-13T00:00:00Z"
+title = 'The power of the mind'
++++
 
 The mindset influences the success of a company - and vice versa.
 
