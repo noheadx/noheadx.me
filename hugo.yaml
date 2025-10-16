@@ -1,0 +1,8 @@
+baseURL: http://www.noheadx.me//
+disablePathToLower: true
+languageCode: en-us
+title: The CTO trap
+markup:
+  goldmark:
+    renderer: 
+      unsafe: true

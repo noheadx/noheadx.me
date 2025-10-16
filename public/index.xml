@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The CTO Trap</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The CTO Trap</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Oct 2025 19:05:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Am I</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Fri, 10 Oct 2025 19:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description>&lt;h3 id=&#34;heading&#34;&gt;&#xA;  &lt;em&gt;&amp;ldquo;You are a fool if you just do as I say. You should think for yourself and come up with a better idea than mine!&amp;rdquo;&lt;/em&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA; &lt;p style=&#34;text-align: right;&#34;&gt;(&lt;a href=&#34;https://www.linkedin.com/in/hlgr360/&#34; target=&#34;_blank&#34;&gt;Holger Reinhard&lt;/a&gt;, CTO)&lt;/p&gt; &#xA;&lt;p&gt;My professional past is a gift! I had the chance to work in different sectors with different responsibilities. In these positions, I had to work with various leadership and management styles as my line manager, customer, or partner. I saw what was working and what was not; I adapted some techniques for myself that I liked and left those behind that appalled me. As time passed, I started to see specific behavioral patterns with CxOs and other managers, so sharing my insights could at least create awareness, if not prevent a few of the destructive behaviors, which is why I started this blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Responsiblity of few: The CEO that could</title>
+      <link>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaders vs. Managers: Decoding the Dance in the Tech Arena (After 19 Years of Stepping on Each Other&#39;s Toes)</title>
+      <link>http://localhost:1313/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; Today&amp;rsquo;s company structures define every manager as a leader. We send managers to leadership meetings, we expect managers to lead teams or units. But there is a fundamental difference between a  leader and a manger. In this post I elaborate why it&amp;rsquo;s a good thing to have both roles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond</title>
+      <link>http://localhost:1313/posts/2024-02-28-dethroning_the_lead_idol/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-02-28-dethroning_the_lead_idol/</guid>
+      <description>&lt;p&gt;Looking at different leader types from military, business and tech - and why they&amp;rsquo;re called leaders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The step back</title>
+      <link>http://localhost:1313/posts/2022-04-04-the_step_back/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-04-04-the_step_back/</guid>
+      <description>&lt;p&gt;Taking a Step Back to Leap Forward: A Reflection on Career Choices&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The CTO trap</title>
+      <link>http://localhost:1313/posts/2022-03-16-cto-trap/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-03-16-cto-trap/</guid>
+      <description>&lt;p&gt;Walking the thin line between being an executive, tech lead and human being in a company.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>To Evolve and Mingle</title>
+      <link>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</guid>
+      <description>&lt;p&gt;A successful team is essential for the company and the group itself.&lt;/p&gt;&#xA;&lt;p&gt;This question pops up sooner or later in any job interview: How do you imagine your perfect workplace?&#xA;Anybody has an idea of what and how they want to work if they could choose freely.&#xA;The most critical part is The T.E.A.M. (or To Evolve And Mingle)!&#xA;The people I&amp;rsquo;m spending more time with on weekdays than with my wife or my kid. The folks I&amp;rsquo;m trusting are doing their jobs the best way they can - just as they trust me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The power of the mind</title>
+      <link>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</guid>
+      <description>&lt;p&gt;The mindset influences the success of a company - and vice versa.&lt;/p&gt;&#xA;&lt;p&gt;A company&amp;rsquo;s mindset is defined by how people work together, communicate, and view their work/product. An attractive attitude for me would be that people follow the Agile Manifesto daily, have an honest, open, and same-level type of communication, and are proud of their product, work, and company.&lt;/p&gt;&#xA;&lt;p&gt;&amp;quot; Please describe your ideal workplace&amp;quot; is a typical question in a job interview.&#xA;Even though it seems like a standard question to check if the candidate would be a match, the actual intent of this question is to see if the candidate has a clear opinion on his working environment and can articulate that.&#xA;So, whenever I&amp;rsquo;m hiring for a dev/DevOps/it position, this question will eventually pop up at one point or another during the process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creating a vision</title>
+      <link>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</guid>
+      <description>&lt;p&gt;Why having a vision is the most important thing for a successful venture.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

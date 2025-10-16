@@ -1,0 +1,66 @@
+baseurl = "http://www.noheadx.me"
+title = "The CTO Trap"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Axel Schulz"
+  info = "Tech traveller, manager, father, husband - adding another 2 cents to this world"
+  description = "The CTO Trap"
+  keywords = "blog,developer,personal"
+  avatarurl = "avatar.png"
+  
+  faviconSVG = "/static/assets/img/favicon.ico"
+  favicon_32 = "/static/assets/img/favicon-32x32.png"
+  favicon_16 = "/static/assets/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/noheadx/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://LinkedIn.com/luckyguy/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "aboutme/"
