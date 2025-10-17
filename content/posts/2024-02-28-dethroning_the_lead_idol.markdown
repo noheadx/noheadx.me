@@ -1,11 +1,11 @@
 ---
 categories: ['Leadership']
 date: "2024-02-28T00:00:00Z"
-excerpt_separator: <!--excerpt-end-->
 title: 'Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond'
 ---
 Looking at different leader types from military, business and tech - and why they're called leaders.
 <!--more-->
+
 # Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond
 Leadership is a word often laden with connotations of power, authority, and even idolization. Yet, beneath this seemingly singular concept lies a diverse landscape shaped by the context in which it is practiced. This article delves into the multifaceted nature of leadership, exploring its nuances across the distinct worlds of the military, technology, and business. Through this comparative lens, we will not only differentiate leadership from management but also challenge the often unrealistic portrayal of leaders as infallible idols.
 

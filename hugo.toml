@@ -59,10 +59,17 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
+  identifier = "blog"
   name = "Blog"
   weight = 1
-  url  = "posts/"
+  url  = "/posts/"
+    [[menu.main]]
+      name = "Leadership"
+      url = "/categories/leadership/"
+      parent = "blog"
+      weight = "1"
 [[menu.main]]
+  identifier = "aboutme"
   name = "About Me"
   weight = 2
   url = "aboutme/"

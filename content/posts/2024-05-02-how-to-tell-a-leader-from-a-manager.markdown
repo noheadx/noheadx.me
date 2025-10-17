@@ -1,12 +1,10 @@
 ---
 categories: ['Leadership']
 date: "2024-05-02T00:00:00Z"
-excerpt_separator: <!--excerpt-end-->
-title: 'Leaders vs. Managers: Decoding the Dance in the Tech Arena (After 19 Years
-  of Stepping on Each Other''s Toes)'
+title: 'Leaders vs. Managers: Decoding the Dance in the Tech Arena'
 ---
-**TL;DR** Today's company structures define every manager as a leader. We send managers to leadership meetings, we expect managers to lead teams or units. But there is a fundamental difference between a  leader and a manger. In this post I elaborate why it's a good thing to have both roles.
-<!--more-->
+Today's company structures define every manager as a leader. We send managers to leadership meetings, we expect managers to lead teams or units. But there is a fundamental difference between a  leader and a manger. In this post I elaborate why it's a good thing to have both roles.
+ <!--more-->
 {{< unsafe >}}
 <p style="">
 <img src="/assets/img/leader_vs_manager.jpeg" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>

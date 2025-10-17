@@ -1,15 +1,14 @@
 ---
-categories: ['Workplace', 'Culture']
-date: "2018-08-15T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
 title: Creating a vision
+date: "2018-08-15T00:00:00Z"
+categories: ["Workplace", "Culture"]
 ---
 
 Why having a vision is the most important thing for a successful venture.
-<!--more-->
+ <!--more-->
 
-# Creating a vision
-Welcome to my blog, The CTO trap, where I share my thoughts and insights on how I want to work in the modern world.\
+Welcome to my blog, The CTO trap, where I share my thoughts and insights on how I want to work in the modern world.
 I started this blog because I am passionate about creating positive change through technology and innovation. I believe that work is more than just a way to earn money. It is a way to express ourselves, to create value, and to make a positive impact on the world. I also believe that work can be fun, fulfilling, and meaningful if we have a clear vision of what we want to achieve and how we want to achieve it.
 In this first post, I want to discuss the importance of having a vision for our work and career. A vision is a mental picture of the future we desire. It is not a goal, a plan, or a strategy. It is a dream, a purpose, or a cause. A vision is what motivates us, inspires us, and guides us. A vision is what makes us different from others and what makes us stand out.
 Why is having a vision vital?

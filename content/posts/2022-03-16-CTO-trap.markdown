@@ -1,12 +1,12 @@
 ---
 categories: ['Leadership']
 date: "2022-03-16T00:00:00Z"
-excerpt_separator: <!--excerpt-end-->
 title: The CTO trap
 ---
 
 Walking the thin line between being an executive, tech lead and human being in a company.
 <!--more-->
+
 ## Establishing the Foundation
 As a Chief Technology Officer (CTO), the very essence of your role is encapsulated in the "Technology" that graces your title. A genuine passion for technology courses through your veins, driving you to explore its depths, stay abreast of cutting-edge advancements, and master the intricacies spanning hardware to software, IaaS/PaaS, architectures, and testing methodologies. The allure of solving complex problems consumes your hours, and in the quiet corners of your mind, there is a tinge of envy for your engineering counterparts who incessantly revel in this pursuit.
 For those who resonate with this sentiment, the innate desire emerges to transcend the confines of individual features or products. It's a yearning to leverage this technological insight to craft something more profound – the molding of an entire company. Every CEO or Managing Director welcomes the presence of an individual adept at navigating the enigmatic realm of technology, who not only unravels the mysteries of the proverbial black box but also comprehends the nuanced challenges inherent in steering the ship of business.
