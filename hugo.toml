@@ -4,10 +4,6 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
 [pagination]
 pagerSize = 20
 
@@ -25,11 +21,11 @@ style = "github-dark"
   keywords = "blog,developer,personal"
   avatarurl = "avatar.png"
   
-  faviconSVG = "/static/assets/img/favicon.ico"
-  favicon_32 = "/static/assets/img/favicon-32x32.png"
-  favicon_16 = "/static/assets/img/favicon-16x16.png"
+  faviconSVG = "/assets/img/favicon.svg"
+  favicon_32 = "/assets/img/favicon-32x32.png"
+  favicon_16 = "/assets/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2018
 
   enableTwemoji = true
 

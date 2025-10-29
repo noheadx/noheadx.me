@@ -6,13 +6,20 @@
     <description>Recent content in Posts on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Responsiblity of few</title>
-      <link>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</link>
+      <title>The micro-apps revolution: Can building software be too easy?</title>
+      <link>http://localhost:1313/posts/2025-10-29-micro_apps_revolution/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-10-29-micro_apps_revolution/</guid>
+      <description>The micro-apps revolution is creating technical debt faster than ever recorded in industry history, while eroding the very skills that make engineering teams valuable, forcing CTOs to shift from managing execution to managing decision quality at scale.</description>
+    </item>
+    <item>
+      <title>The Enforcement Trap: Why Pressuring Developers Guarantees Failure</title>
+      <link>http://localhost:1313/posts/2025-10-09-enforcement_trap/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</guid>
+      <guid>http://localhost:1313/posts/2025-10-09-enforcement_trap/</guid>
       <description>It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.</description>
     </item>
     <item>

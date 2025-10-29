@@ -36,4 +36,5 @@ Every now and then we happen to meet or learn of people in our lives that influe
 - Sam Newman's "Building Microservices" which just describes how software should be built using common sense
 
 This infogrpahic by [Nigel Holmes](http://nigelholmes.com/) is a perfect display of how I am trying to structure my thinking as a people's leader 
+
 ![Growth Mindset](/assets/img/growth-mindset.webp)

@@ -113,7 +113,7 @@ Here's where most CTOs are failing: they're treating AI coding tools as producti
 
 [ChargeLab CTO Ehsan Mokhtari reported](https://leaddev.com/culture/ai-coding-mandates-are-driving-developers-to-the-brink) a 40% productivity increase across their 40-person engineering team with the opposite approach. Rather than mandates, he made multiple tools available—Windsurf, Cursor, Copilot, ChatGPT, Claude—and empowered his 40 engineers to choose what works best. His insight: "You cannot really pull people forward and make them innovative. You have to foster the culture."
 
-But here's the critical balance: greater autonomy requires clearer boundaries. When developers can execute quickly with minimal friction, small autonomous decisions compound into major organizational risks. A "small" security shortcut becomes a data breach. Copying an open-source library creates legal liability. Architectural guidelines get bypassed in the name of velocity, hindering future development.
+True, it's a critical balance: greater autonomy requires clearer boundaries. When developers can execute quickly with minimal friction, small autonomous decisions compound into major organizational risks. A "small" security shortcut becomes a data breach. Copying an open-source library creates legal liability. Architectural guidelines get bypassed in the name of velocity, hindering future development.
 
 Organizations must define SMART policies for software quality, security, and architecture. The principle: **provide autonomy in methodology while maintaining control over strategic assets and organizational risks.**
 

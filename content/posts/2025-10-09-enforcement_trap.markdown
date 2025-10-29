@@ -1,14 +1,11 @@
 ---
 categories: ['Leadership', '2025']
 date: "2025-10-09T00:00:00Z"
-excerpt_separator: <!--excerpt-end-->
-title: 'Responsiblity of few'
+title: "The Enforcement Trap: Why Pressuring Developers Guarantees Failure"
 summary: "It's 2025, 12 years after \"The Phoenix Project\". Yet, there are companies that seem to be unaware of product and development culture."
 ---
 
-# Responsibility of Few
-
-A few weeks ago, I spoke to a CEO of a small IT company who complained to me about the performance of their dev team - developers wouldn't keep the deadlines (the ones they didn't set), they would just work on what they want, and (a classic) never finish any feature. 
+A few weeks ago, I spoke to a CEO of a small IT company who complained to me about the performance of their dev team: developers wouldn't keep the deadlines, they would just work on what they want, and (a classic) never finish any feature. 
 
 This had created a huge backlog of unfinished features and unhandled technical debt with important customer projects, hence resulting in unsatisfied customers. The company's mid-term target was to scale but the CEO was afraid that adding more projects, products and people would ruin the company in its current state. 
 
@@ -34,12 +31,12 @@ Maybe the cave metaphor wasn't entirely fair. The real issue is that we're still
 ### What We Know About Developer Productivity
 
 [McKinsey's research](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance) on Developer Velocity identifies four capabilities that have the greatest impact on business performance: 
-* tools, 
-* culture, 
-* product management, and 
-* talent management. 
+* tools
+* culture
+* product management 
+* talent management 
 
-Notice what's missing from that list? Enforcement - Pressure - Demanding developers to "finish features."
+Notice, what's missing from that list? Enforcement & Pressure & Demanding developers to "finish features."
 
 In fact, the data shows the opposite: Organizations with strong developer tools 
 * are **65% more innovative** than bottom-quartile companies! 
@@ -57,27 +54,27 @@ Not a single one of them measures "enforcement of feature completion."
 
 Let's revisit the CEO's complaints through a different lens. Developers "just work on what they want" and "never finish features." That's not laziness or lack of discipline, but rather a rational response to an irrational environment!
 
-The [DevEx framework](https://www.infoq.com/articles/devex-metrics-framework/), developed by the people behind DORA and SPACE, focuses on three critical dimensions: feedback loops, cognitive load, and flow state. When developers constantly switch between unfinished features, when they're working on technical debt instead of new features, when they seem to be working on "what they want" - they might actually be trying to manage impossible cognitive load or fix broken feedback loops that leadership can't see.
+The [DevEx framework](https://www.infoq.com/articles/devex-metrics-framework/), developed by the people behind DORA and SPACE, focuses on three critical dimensions: feedback loops, cognitive load, and flow state. When developers constantly switch between unfinished features, when they're working on technical debt instead of new features, when they seem to be working on "what they want", they might actually be trying to manage impossible cognitive load or fix broken feedback loops that leadership can't see.
 
-Technical debt is a perfect example. To non-technical leadership, it often looks like developers wasting time on invisible work when they should be building features customers are asking for. But organizations with dedicated technical debt management achieve 27% higher velocity over time compared to those who address debt reactively. That's not developers being stubborn - that's developers trying to prevent the entire system from collapsing.
+Technical debt is a perfect example. To non-technical leadership, it often looks like developers wasting time on invisible work when they should be building features customers are asking for. But organizations with dedicated technical debt management achieve 27% higher velocity over time compared to those who address debt reactively. That's not developers being stubborn. These developers are trying to prevent the entire system from collapsing!
 
 The pattern of "never finishing features" is equally telling. When developers consistently fail to complete work, it's rarely because they're incompetent or unmotivated. It's usually because:
-- The scope was unrealistic from the start
-- Requirements changed mid-development (often based on sales promises)
-- Technical dependencies weren't understood or communicated
-- The definition of "done" differs between sales, product, and engineering
+* The scope was unrealistic from the beginning
+* Requirements changed mid-development (often based on sales promises)
+* Technical dependencies weren't understood or communicated
+* The definition of "done" differs between sales, product, and engineering
 
 None of these are solved by enforcement.
 
 ### The Leadership Blind Spot
 
-Here's the uncomfortable truth: Few leaders understand the day-to-day developer experience. They don't see the context switching, the interruptions, the cascade of dependencies, the technical constraints. They see outputs - or the lack of them - and assume the problem is motivation or capability.
+The uncomfortable truth is: Few leaders understand the day-to-day developer experience. They don't see the context switching, the interruptions, the cascade of dependencies, the technical constraints. They see outputs and assume the problem is motivation or capability.
 
-The 2024 DORA report emphasizes something critical: Organizations that prioritize user-centric approaches and work under transformational leadership with clear strategic direction consistently outperform others. Not organizations that enforce. Not organizations that pressure. Organizations that lead.
+The [2024 DORA report](https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report) emphasizes something critical: Organizations that prioritize user-centric approaches and work under transformational leadership with clear strategic direction consistently outperform others. Not organizations that enforce. Not organizations that pressure. Organizations that lead.
 
 And those Glassdoor reviews the CEO cited as evidence against the developers? They're actually evidence of the real problem. When employee reviews are consistently negative, it's not validation that employees are the problem. It's a screaming alarm that leadership has created an environment where people can't do their best work.
 
-Poor leadership communication alone leads to a 25% reduction in team productivity. When leaders fail to articulate goals or expectations clearly, when they create environments where developers are blamed for systemic failures, they're not solving problems - they're multiplying them.
+Poor leadership communication alone leads to a 25% reduction in team productivity. When leaders fail to articulate goals or expectations clearly, when they create environments where developers are blamed for systemic failures, they're not solving problems, but rather multiplying them.
 
 ### What Actually Causes This Scenario
 
@@ -98,10 +95,10 @@ Dysfunctional leadership teams become serious drags on strategy execution and er
 The CEO was right about one thing: They can't scale in their current state. But here's the paradox - enforcing developers to finish features would make scaling even harder.
 
 Scaling requires:
-- Systems that can handle increased load (requires addressing technical debt)
-- Processes that work with more people (requires realistic planning and clear priorities)
-- Culture that attracts and retains talent (requires psychological safety and good tooling)
-- Alignment across functions (requires communication and shared understanding)
+* Systems that can handle increased load (requires addressing technical debt)
+* Processes that work with more people (requires realistic planning and clear priorities)
+* Culture that attracts and retains talent (requires psychological safety and good tooling)
+* Alignment across functions (requires communication and shared understanding)
 
 Enforcement provides exactly none of these. It actually undermines all of them.
 
@@ -109,9 +106,9 @@ Organizations that successfully scale invest in developer experience. They reduc
 
 Companies that try to scale by pressuring developers to work faster hit a wall. The technical debt accumulates faster. The good developers leave. The ones who stay are the ones who've learned to game whatever metrics leadership is using. Quality plummets. Customer satisfaction drops. And leadership blames developers for not working hard enough.
 
-### What Would Actually Help
+### What Actually Helps
 
-If I could sit down with this CEO again, here's what I'd suggest:
+During our discussion, I suggestes the following things:
 
 **Start with joint planning sessions** between sales, product, and engineering. Before any commitment is made to a customer, engineering needs to weigh in on feasibility, scope, and timeline. Sales needs to understand technical constraints. This isn't bureaucracy - it's basic risk management.
 
@@ -125,21 +122,9 @@ If I could sit down with this CEO again, here's what I'd suggest:
 
 **Listen before enforcing**. Talk to the developers. Not to tell them what they're doing wrong, but to understand what they're experiencing. What obstacles are they facing? What would help them be more effective? You might be surprised by what you learn.
 
-## The Real Cave
-
-The CEO has been in a cave, but it's not a technology cave or a business trends cave. It's a cave of outdated management thinking where control trumps empowerment, where activity matters more than outcomes, where the answer to every problem is to demand people work harder or faster.
-
-The research is clear. The evidence is overwhelming. The successful companies have figured this out. High-performing organizations don't enforce - they enable. They don't pressure - they prioritize. They don't blame - they build.
-
-In 2025, we know what works. The question is whether leadership is willing to do it.
-
-The responsibility doesn't belong to the few developers failing to finish features. It belongs to the leadership that created the conditions where finishing features became impossible.
-
-And until that changes, scaling will remain a distant dream - no matter how much enforcement is applied.
-
 ## A Note on Business Reality
 
-Let me be clear: I understand the CEO's perspective. Revenue needs to grow. Margins need to improve. Customers need to be satisfied. Investors or boards expect results. These aren't abstract concepts - they're survival requirements for any company. A CEO can't afford to ignore financial performance.
+Let me be clear: I understand the CEO's perspective. Revenue needs to grow. Margins need to improve. Customers need to be satisfied. Investors or boards expect results. These are survival requirements for any company! A CEO can't afford to ignore financial performance.
 
 But here's what needs to be understood: Investing in developer experience isn't about creating comfort zones or protecting developers from pressure. It's not about letting engineers work on whatever interests them academically. It's about removing the obstacles that prevent your engineering organization from delivering business value efficiently.
 

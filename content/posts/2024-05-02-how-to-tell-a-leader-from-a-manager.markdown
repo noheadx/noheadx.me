@@ -5,6 +5,10 @@ title: "Leaders vs. Managers: Decoding the Dance in the Tech Arena"
 summary: "On the fundamental difference between a leader and a manger, and why it is a good thing to have both."
 ---
 
+Nineteen years in the tech trenches, leading teams across publishing, media, consulting, education, and healthcare for the past six years – you'd think I'd have a firm grasp on leadership styles by now. Well, let me tell you, the dance between leaders and managers is complex, and I've spent a good chunk of my career stepping on each other's toes (figuratively, of course).
+The reason? We often confuse the two. We hear "leader" and imagine a charismatic Steve Jobs figure, a visionary rallying the troops. But then we see managers, the folks ensuring day-to-day operations run smoothly, and think they're somehow lesser leaders. The truth? They're both crucial, but they're not the same thing.
+Let's break it down.
+
 {{< unsafe >}}
     <p style="">
         <img src="/assets/img/leader_vs_manager.jpeg" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
@@ -14,13 +18,8 @@ summary: "On the fundamental difference between a leader and a manger, and why i
     </p>
 {{< /unsafe >}}
 
-# Leaders vs. Managers: Decoding the Dance in the Tech Arena (After 19 Years of Stepping on Each Other's Toes)
-Nineteen years in the tech trenches, leading teams across publishing, media, consulting, education, and healthcare for the past six years – you'd think I'd have a firm grasp on leadership styles by now. Well, let me tell you, the dance between leaders and managers is complex, and I've spent a good chunk of my career stepping on each other's toes (figuratively, of course).
-The reason? We often confuse the two. We hear "leader" and imagine a charismatic Steve Jobs figure, a visionary rallying the troops. But then we see managers, the folks ensuring day-to-day operations run smoothly, and think they're somehow lesser leaders. The truth? They're both crucial, but they're not the same thing.
-Let's break it down.
-
 ### The Fire of Conviction: The Leader's Spotlight
-Leaders are the torchbearers. They see the future! A future they believe in so deeply that it becomes infectious. They paint a vivid picture of what could be, igniting a spark in those around them. This vision isn't just about profit margins or quarterly reports; it's about a purpose, a cause that resonates.
+Leaders are the torchbearers. They see the future as it could be! A future they believe in so deeply that it becomes infectious. They paint a vivid picture of what could be, igniting a spark in those around them. This vision isn't just about profit margins or quarterly reports; it's about a purpose, a cause that resonates.
 Take healthcare, for example. A leader might see a future where technology empowers patients, streamlines care, and ultimately saves lives. They passionately articulate that vision, inspiring their team to go beyond the status quo and build solutions that truly make a difference.
 
 ### Charisma? It's More Than Just a Smile
