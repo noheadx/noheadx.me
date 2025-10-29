@@ -1,12 +1,10 @@
 ---
-categories: ['Leadership']
+categories: ['Leadership', '2025']
 date: "2025-10-09T00:00:00Z"
 excerpt_separator: <!--excerpt-end-->
-title: 'Responsiblity of few: The CEO that could'
+title: 'Responsiblity of few'
+summary: "It's 2025, 12 years after \"The Phoenix Project\". Yet, there are companies that seem to be unaware of product and development culture."
 ---
-
-It's 2025, 12 years after "The Phoenix Project". Yet, there are companies that seem to be unaware of product and development culture.
- <!--more-->
 
 # Responsibility of Few
 
@@ -15,12 +13,16 @@ A few weeks ago, I spoke to a CEO of a small IT company who complained to me abo
 This had created a huge backlog of unfinished features and unhandled technical debt with important customer projects, hence resulting in unsatisfied customers. The company's mid-term target was to scale but the CEO was afraid that adding more projects, products and people would ruin the company in its current state. 
 
 The CEO insisted that a performance culture needs to be established by enforcing the developers to finish and deliver features! The bad company evaluations on Glassdoor only strengthened his confidence that the developers were ruining the company.
+
 {{< unsafe >}}
-<p style="">
-<img src="/assets/img/noheadx_developer_ceo.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
-<span style="font-size:0.5em;text-align: center;display: block;"><strong>Generated with AI</strong> ∙ 9 October 2025 at 06:03 pm</span>
-</p>
+    <p style="">
+        <img src="/assets/img/noheadx_developer_ceo.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Generated with AI</strong> ∙ 9 October 2025 at 06:03 pm
+        </span>
+    </p>
 {{< /unsafe >}}
+
 My first reaction was: Wow - it's 2025, and we're really still discussing the "performance" of dev teams from a sales perspective? I thought the era of "us vs. them"  was finally over?! That the prejudice of the lazy developer doing only the work they want and the hard-working salesman who keeps the company alive but gets no credit from the rest of the company for closing contracts that pays their salary. There are probably more books, TED talks and blog articles on that subject than anyone could consume in their lives. Countless companies have documented their pains of aligning business, engineering, operations, and IT - you can't miss it unless you've spent the past 15 years in a cave. 
 
 But then I gave it a second thought...

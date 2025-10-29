@@ -1,14 +1,14 @@
 ---
-excerpt_separator: <!--excerpt-end-->
-title: Creating a vision
+categories: ['Workplace', 'Culture', '2018']
+title: "Creating a vision"
 date: "2018-08-15T00:00:00Z"
-categories: ["Workplace", "Culture"]
+summary: "Why having a vision is the most important thing for a successful venture."
 ---
 
-Why having a vision is the most important thing for a successful venture.
- <!--more-->
+## Welcome to my blog! 
 
-Welcome to my blog, The CTO trap, where I share my thoughts and insights on how I want to work in the modern world.
+At **'The CTO trap'** I'll share my thoughts and insights on how I want to work in the modern world.
+
 I started this blog because I am passionate about creating positive change through technology and innovation. I believe that work is more than just a way to earn money. It is a way to express ourselves, to create value, and to make a positive impact on the world. I also believe that work can be fun, fulfilling, and meaningful if we have a clear vision of what we want to achieve and how we want to achieve it.
 In this first post, I want to discuss the importance of having a vision for our work and career. A vision is a mental picture of the future we desire. It is not a goal, a plan, or a strategy. It is a dream, a purpose, or a cause. A vision is what motivates us, inspires us, and guides us. A vision is what makes us different from others and what makes us stand out.
 Why is having a vision vital?
@@ -19,7 +19,7 @@ What are the results of lacking a vision?
 Lacking a vision can have negative consequences for our work and our careers. Without a vision, we may feel lost, confused, or bored. We may lack motivation, enthusiasm, or creativity. We may settle for less than we deserve or chase after things that don’t matter. We may waste our time, energy, and resources on activities that don’t align with our values and principles. We may miss opportunities or make mistakes that could have been avoided.
 We may feel isolated, frustrated, or unhappy without a vision. We may struggle to find meaning and purpose in our work and to connect with others who share our interests and goals. We may feel dissatisfied with our work and results and doubt ourselves and our abilities. We may lose confidence and credibility and fail to reach our full potential.
 
-How do you create and persist in a vision?
+## How do you create and persist in a vision?
 Creating and persisting a vision is not easy but possible and rewarding. Here are some tips to help you with this process:
 Think significant and think long-term. Your vision should be ambitious and aspirational. It should reflect your dreams and your desires. It should challenge you and stretch you. It should also be realistic and attainable. It should be something that you can achieve within a reasonable timeframe, such as 5 to 10 years.
 Think positive and think inspiring. Your vision should be optimistic. It should reflect your strengths and your opportunities. It should energize you and excite you. It should also be compelling and captivating. It should be something that you can articulate and communicate to others clearly and concisely.

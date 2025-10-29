@@ -1,0 +1,28 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+         All Posts from 2018 to Present
+        </a>
+      </h1>
+    </header>
+    {{ .Content }}
+    <ul>
+      {{- range .Paginator.Pages -}}
+        <li>
+            <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+            <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        <li>
+            <span style="margin-left: 31rem; margin-top: 0px; margin-bottom: 2rem; font-style: italic;">{{ .Summary }}</span>
+        </li>
+      {{- end -}}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}

@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/2025/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/leadership/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-10-29-micro_apps_revolution/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-10T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/leadership/</loc>
-    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/2024/</loc>
+    <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
@@ -23,11 +35,17 @@
     <loc>http://localhost:1313/posts/2024-02-28-dethroning_the_lead_idol/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/2022/</loc>
+    <lastmod>2022-04-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2022-04-04-the_step_back/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022-03-16-cto-trap/</loc>
     <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/2019/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/culture/</loc>
     <lastmod>2019-02-19T00:00:00+00:00</lastmod>
@@ -37,6 +55,9 @@
   </url><url>
     <loc>http://localhost:1313/categories/workplace/</loc>
     <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/2018/</loc>
+    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</loc>
     <lastmod>2018-09-13T00:00:00+00:00</lastmod>

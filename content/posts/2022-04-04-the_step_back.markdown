@@ -1,12 +1,10 @@
 ---
-categories: ['Leadership']
+categories: ['Leadership', '2022']
 date: "2022-04-04T00:00:00Z"
-title: The step back
+title: "Taking a Step Back to Leap Forward: A Reflection on Career Choices"
+summary: "Taking a Step Back to Leap Forward: A Reflection on Career Choices"
 ---
-Taking a Step Back to Leap Forward: A Reflection on Career Choices
-<!--more-->
 
-## Taking a Step Back to Leap Forward: A Reflection on Career Choices
 In my recent professional journey, I find myself assuming a new position, a role that some might perceive as a step back – the position of a __Director of Engineering__. Glancing at my CV, one might observe a pattern of transitioning roles every 2-3 years, each shift motivated by distinct reasons, but that's a discussion for another post.
 Why this apparent downgrade, you might wonder? Certainly not out of desperation. The CTO job market is thriving, with numerous companies actively seeking individuals for such roles. Over the past months alone, I've been approached by 10-20 companies interested in hiring a CTO. So, what's the rationale behind this move?
 

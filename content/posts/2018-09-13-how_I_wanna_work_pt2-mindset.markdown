@@ -1,10 +1,9 @@
-+++
-categories = ['Workplace', 'Culture']
-date = "2018-09-13T00:00:00Z"
-title = 'The power of the mind'
-+++
-
-The mindset influences the success of a company - and vice versa.
+---
+categories: ['Workplace', 'Culture', '2018']
+date: "2018-09-13T00:00:00Z"
+title: "The power of the mind"
+summary: "How the success of a company is being steered by it's mindset"
+---
 
 A company's mindset is defined by how people work together, communicate, and view their work/product. An attractive attitude for me would be that people follow the Agile Manifesto daily, have an honest, open, and same-level type of communication, and are proud of their product, work, and company.
 

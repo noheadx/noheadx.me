@@ -6,13 +6,48 @@
     <description>Recent content in Categories on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025</title>
+      <link>http://localhost:1313/categories/2025/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2025/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Leadership</title>
       <link>http://localhost:1313/categories/leadership/</link>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/categories/tech/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024</title>
+      <link>http://localhost:1313/categories/2024/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022</title>
+      <link>http://localhost:1313/categories/2022/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2022/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2019</title>
+      <link>http://localhost:1313/categories/2019/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2019/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +62,13 @@
       <link>http://localhost:1313/categories/workplace/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/workplace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2018</title>
+      <link>http://localhost:1313/categories/2018/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2018/</guid>
       <description></description>
     </item>
   </channel>

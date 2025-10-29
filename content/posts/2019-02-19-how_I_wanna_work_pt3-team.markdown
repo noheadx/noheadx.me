@@ -1,7 +1,8 @@
 ---
-categories: ['Workplace', 'Culture']
+categories: ['Workplace', 'Culture', '2019']
 date: "2019-02-19T00:00:00Z"
-title: To Evolve and Mingle
+title: "T.E.A.M. - To Evolve And Mingle"
+summary: "How I build my ideal team"
 ---
 
 A successful team is essential for the company and the group itself.
@@ -9,7 +10,7 @@ A successful team is essential for the company and the group itself.
 This question pops up sooner or later in any job interview: How do you imagine your perfect workplace?
 Anybody has an idea of what and how they want to work if they could choose freely.
 The most critical part is The T.E.A.M. (or To Evolve And Mingle)! 
-The people I'm spending more time with on weekdays than with my wife or my kid. The folks I'm trusting are doing their jobs the best way they can - just as they trust me.
+The people I'm spending more time with on weekdays than with my family. The folks I'm trusting are doing their jobs the best way they can - just as they trust me.
 
 ## Why is the team so important?
 I firmly believe that the ultimate reason a company is successful or not is neither its vision, business plan, or product - it's the people! The people and the way they work together decide if a customer will receive his order on time and in perfect quality. They decide whether the team will launch a product. They choose if they're going to improve their work process to lower costs or speed up production. And by determining all that, people choose if a company is successful or not.

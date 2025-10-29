@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025 on The CTO Trap</title>
+    <link>http://localhost:1313/categories/2025/</link>
+    <description>Recent content in 2025 on The CTO Trap</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Responsiblity of few</title>
+      <link>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-10-09-responsibility_of_few/</guid>
+      <description>It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.</description>
+    </item>
+  </channel>
+</rss>

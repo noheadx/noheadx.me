@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018 on The CTO Trap</title>
+    <link>http://localhost:1313/categories/2018/</link>
+    <description>Recent content in 2018 on The CTO Trap</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/2018/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The power of the mind</title>
+      <link>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</guid>
+      <description>How the success of a company is being steered by it&amp;rsquo;s mindset</description>
+    </item>
+    <item>
+      <title>Creating a vision</title>
+      <link>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</guid>
+      <description>Why having a vision is the most important thing for a successful venture.</description>
+    </item>
+  </channel>
+</rss>
