@@ -33,11 +33,14 @@ This attitude covers the three areas:
 ### How do people work in that company?
 This bullet point relates to the actual process of daily work. The most important virtue in my daily work is the Agile Manifesto (a.k.a. common sense, as I like to point out):
 
-{: style="text-align: center;"}
-Individuals and interactions __over__ processes and tools<br/>
-Working software __over__ comprehensive documentation<br/>
-Customer collaboration __over__ contract negotiation<br/>
-Responding to change __over__ following a plan<br/>
+{{< unsafe >}}
+    <p style="text-align: center;">
+        Individuals and interactions <i>over</i> processes and tools<br/>
+        Working software <i>over</i> comprehensive documentation<br/>
+        Customer collaboration <i>over</i> contract negotiation<br/>
+        Responding to change <i>over</i> following a plan<br/>
+    </p>
+{{< /unsafe >}}
 
 The Manifesto explicitly mentions the things on the right because they are essential and have every right to exist in a company or a team. It's just that the stuff on the left should be valued higher when it comes to working.
 
