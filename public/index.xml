@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The micro-apps revolution: Can building software be too easy?</title>
-      <link>http://localhost:1313/posts/2025-10-29-micro_apps_revolution/</link>
+      <link>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-10-29-micro_apps_revolution/</guid>
+      <guid>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</guid>
       <description>AI-created micro-apps are creating technical debt faster than ever, while eroding the very skills that make engineering teams valuable. How do CTOs shift from managing execution to managing decision quality at scale?</description>
     </item>
     <item>
