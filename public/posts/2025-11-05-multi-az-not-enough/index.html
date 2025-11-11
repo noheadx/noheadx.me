@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Multi-AZ Isn&#39;t Enough: What Two Major Outages Taught Us About Real Resilience · The CTO Trap
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Axel Schulz">
+<meta name="description" content="When AWS went dark for 15 hours and South Korea lost 858TB permanently, the industry learned that compliance doesn&rsquo;t equal resilience">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Multi-AZ Isn&#39;t Enough: What Two Major Outages Taught Us About Real Resilience">
+  <meta name="twitter:description" content="When AWS went dark for 15 hours and South Korea lost 858TB permanently, the industry learned that compliance doesn’t equal resilience">
+
+<meta property="og:url" content="http://localhost:1313/posts/2025-11-05-multi-az-not-enough/">
+  <meta property="og:site_name" content="The CTO Trap">
+  <meta property="og:title" content="Multi-AZ Isn&#39;t Enough: What Two Major Outages Taught Us About Real Resilience">
+  <meta property="og:description" content="When AWS went dark for 15 hours and South Korea lost 858TB permanently, the industry learned that compliance doesn’t equal resilience">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-05T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/2025-11-05-multi-az-not-enough/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      The CTO Trap
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About Me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/2025-11-05-multi-az-not-enough/">
+              Multi-AZ Isn&#39;t Enough: What Two Major Outages Taught Us About Real Resilience
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-11-05T00:00:00Z">
+                November 5, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/leadership/">Leadership</a>
+      <span class="separator">•</span>
+    <a href="/categories/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="/categories/2025/">2025</a></div>
+
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>On October 20, 2024, AWS began investigating &ldquo;increased error rates&rdquo; in US-EAST-1 at 09:11 AM Berlin time. By the time services recovered 15 hours later, much of the internet had been broken. Signal, Atlassian, Docker Hub, Apple services, Perplexity AI, even AWS&rsquo;s own support systems, all down.</p>
+<p>The culprit was a DNS race condition in DynamoDB that made the service disappear from the internet. One empty DNS record. 113 AWS services gone.</p>
+<p>Here&rsquo;s what should worry you: many affected services ran multi-AZ configurations. They followed the playbook. They checked the compliance boxes. They still went down.</p>
+<h2 id="multi-az-protects-against-buildings-not-services">
+  Multi-AZ Protects Against Buildings, Not Services
+  <a class="heading-link" href="#multi-az-protects-against-buildings-not-services">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Multi-AZ deployment protects against facility-level failures, not service-level failures. When DynamoDB&rsquo;s DNS failed, your instances across three availability zones meant nothing. DynamoDB couldn&rsquo;t be reached from any of them.</p>
+<p>Werner Vogels said &ldquo;everything fails, all the time.&rdquo; This outage proved sometimes everything fails all at once, across all your carefully separated zones.</p>
+<p>The cascade went like this:</p>
+<ul>
+<li><strong>Phase 1</strong>: DynamoDB DNS fails, immediate disruption</li>
+<li><strong>Phase 2</strong>: EC2&rsquo;s recovery attempts cause &ldquo;congestive collapse&rdquo;</li>
+<li><strong>Phase 3</strong>: Network Manager backlogs cascade failures through Lambda, ECS, CloudWatch</li>
+</ul>
+<p>Total recovery: 15 hours for &ldquo;highly available&rdquo; services deployed across multiple zones.</p>
+<h2 id="when-too-large-to-backup-becomes-unable-to-recover">
+  When &ldquo;Too Large to Backup&rdquo; Becomes &ldquo;Unable to Recover&rdquo;
+  <a class="heading-link" href="#when-too-large-to-backup-becomes-unable-to-recover">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>While AWS recovered from DNS failures, South Korea faced permanent loss. On September 26, a lithium-ion battery exploded during maintenance at South Korea&rsquo;s National Information Resources Service (NIRS) data center in Daejeon, destroying 858 terabytes of government data on the G-Drive cloud storage system.</p>
+<p>The reason? No backups. An unnamed official explained: &ldquo;The G-Drive couldn&rsquo;t have a backup system due to its large capacity.&rdquo;</p>
+<p>858 terabytes was &ldquo;too large&rdquo; to backup. That&rsquo;s roughly $5,150 per month for redundant cloud storage, less than one mid-level engineer&rsquo;s cost. The government had mandated that employees store all work files exclusively on G-Drive rather than on local PCs. Eight years of work from 125,000 employees were gone.</p>
+<h2 id="the-tech-leadership-communication-gap">
+  The Tech Leadership Communication Gap
+  <a class="heading-link" href="#the-tech-leadership-communication-gap">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Both incidents reveal the same problem: <strong>People confuse compliance with resilience</strong>.</p>
+<p>Multi-AZ checks boxes. It satisfies auditors, but doesn&rsquo;t answer: &ldquo;What happens when our dependencies fail?&rdquo;</p>
+<p>Many tech leaders struggle to translate technical risk into business language that gets budget approved. South Korea&rsquo;s disaster wasn&rsquo;t just about missing backups, it was about leadership that couldn&rsquo;t articulate why $5,150/month for 858TB backup was critical insurance, not optional expense.</p>
+<p>The conversation likely went: &ldquo;Can we afford backups?&rdquo; instead of &ldquo;Can we afford to lose eight years of 125,000 employees&rsquo; work?&rdquo; Technical leaders who can&rsquo;t frame disaster recovery as business continuity insurance will always lose to feature development in budget discussions. Your ability to get sustainable backup strategies funded depends less on technical expertise and more on your ability to make CFOs and boards viscerally understand the cost of &ldquo;permanently lost&rdquo; versus the cost of &ldquo;redundantly stored.&rdquo;</p>
+<p>If you can&rsquo;t make executives feel the pain of a 15-hour outage in their quarterly projections, you&rsquo;ll never get the budget for true resilience.</p>
+<p>Consider what separated winners from losers during the AWS outage:</p>
+<p><strong>Organizations that stayed up</strong>: Multi-region active/passive architectures with warm standby or active-active configurations in separate regions were able to failover. Customers noticed latency, not outages.</p>
+<p><strong>Organizations that went dark</strong>: Multi-AZ within single region. No DynamoDB access. No CloudWatch monitoring. Status pages couldn&rsquo;t update.</p>
+<p>Both looked equally &ldquo;highly available&rdquo; on paper. The difference emerged only when core dependencies failed.</p>
+<h2 id="what-multi-az-actually-protects-and-what-not">
+  What Multi-AZ Actually Protects And What Not
+  <a class="heading-link" href="#what-multi-az-actually-protects-and-what-not">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><strong>Multi-AZ protects against:</strong></p>
+<ul>
+<li>Power failures at single facilities</li>
+<li>Hardware failures in specific data centers</li>
+<li>Planned maintenance requiring zone rotation</li>
+<li>Facility disasters (fires, floods) affecting one location</li>
+</ul>
+<p><strong>Multi-AZ does NOT protect against:</strong></p>
+<ul>
+<li>Regional service outages (like DynamoDB DNS)</li>
+<li>Control plane failures</li>
+<li>Shared service dependencies (IAM, Route53, CloudWatch)</li>
+<li>Software bugs spanning multiple zones</li>
+<li>Capacity constraints during recovery</li>
+</ul>
+<p>When tech leads believe multi-AZ equals &ldquo;disaster recovery,&rdquo; they stop asking harder questions about dependencies and true isolation.</p>
+<h2 id="recommended-action-items">
+  Recommended Action Items
+  <a class="heading-link" href="#recommended-action-items">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-map-your-real-dependencies">
+  1. Map Your Real Dependencies
+  <a class="heading-link" href="#1-map-your-real-dependencies">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Document every shared dependency. Not just your application&rsquo;s, but your cloud provider&rsquo;s internal dependencies. If DynamoDB fails, can you operate? If IAM goes down, can users authenticate?</p>
+<h3 id="2-test-regional-failures-not-component-failures">
+  2. Test Regional Failures, Not Component Failures
+  <a class="heading-link" href="#2-test-regional-failures-not-component-failures">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Schedule quarterly drills simulating complete regional failure. Not just failover checks, sustained operations in secondary regions. Can you deploy code? Access logs? Complete transactions?</p>
+<h3 id="3-calculate-true-resilience-costs">
+  3. Calculate True Resilience Costs
+  <a class="heading-link" href="#3-calculate-true-resilience-costs">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Model what is known as &lsquo;business impact&rsquo; in Business Continuity Managament: 15-hour regional outage, permanent data loss, week-long degradation. Price solutions preventing each. Present them as &ldquo;insurance against business-ending events,&rdquo; not &ldquo;infrastructure costs.&rdquo;</p>
+<h3 id="4-implement-real-backup-independence">
+  4. Implement Real Backup Independence
+  <a class="heading-link" href="#4-implement-real-backup-independence">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Follow the 3-2-1 backup rule: three copies of data, on two different media types, with one copy off-site. &ldquo;Off-site&rdquo; means different region or provider, not different availability zone.</p>
+<h3 id="5-question-your-vendors-architecture">
+  5. Question Your Vendor&rsquo;s Architecture
+  <a class="heading-link" href="#5-question-your-vendors-architecture">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Request architecture reviews from cloud providers. Understand their control plane design. Know which services are truly independent and which share fate.</p>
+<p>Organizations that maintained service shared common patterns: active-active multi-region deployment with traffic routing automatically to healthy regions, service-level redundancy with critical paths not depending solely on regional services, and graceful degradation allowing reduced functionality when dependencies failed.</p>
+<p>The thread: these organizations treated disaster recovery as strategic capability, not compliance checkbox.</p>
+<h2 id="the-uncomfortable-truth">
+  The Uncomfortable Truth
+  <a class="heading-link" href="#the-uncomfortable-truth">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Multi-AZ is necessary, but it&rsquo;s not sufficient.</p>
+<p>The AWS outage proved regional dependencies negate multi-AZ resilience. South Korea proved &ldquo;too expensive&rdquo; disaster recovery leads to permanent failures.</p>
+<p>When executives ask &ldquo;are we protected?&rdquo; the honest answer for most organizations is: &ldquo;We&rsquo;re protected against common failures. We&rsquo;re vulnerable to catastrophic ones.&rdquo;</p>
+<p>That&rsquo;s a business decision, not technical. As a CTO, your job is ensuring executives understand which risks they&rsquo;re accepting, what those risks cost in worst-case scenarios, and what true resilience requires.</p>
+<p>The next outage isn&rsquo;t if, but when. The question is whether you&rsquo;ll stay online or explain why multi-AZ wasn&rsquo;t enough. The answer is: Because it never was.</p>
+<hr>
+<p><strong>Quick Assessment:</strong></p>
+<ol>
+<li>Have you successfully failed over to secondary region in last 90 days?</li>
+<li>Can you quantify 15-hour downtime cost?</li>
+<li>Do backups live in different region than primary infrastructure?</li>
+<li>Could you operate if primary cloud provider had control plane failure?</li>
+<li>Does your executive team understand multi-AZ vs multi-region?</li>
+</ol>
+<p>If you answered &ldquo;no&rdquo; to any, your disaster recovery plan is incomplete. The gap between compliance and resilience is where catastrophic failures live.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2025
+     Axel Schulz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

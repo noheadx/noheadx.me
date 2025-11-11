@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  When Infrastructure Fails: The Leadership Accountability Gap · The CTO Trap
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Axel Schulz">
+<meta name="description" content="From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="When Infrastructure Fails: The Leadership Accountability Gap">
+  <meta name="twitter:description" content="From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.">
+
+<meta property="og:url" content="http://localhost:1313/posts/2025-11-11-multi-az-not-enough/">
+  <meta property="og:site_name" content="The CTO Trap">
+  <meta property="og:title" content="When Infrastructure Fails: The Leadership Accountability Gap">
+  <meta property="og:description" content="From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-11T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/2025-11-11-multi-az-not-enough/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      The CTO Trap
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About Me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/2025-11-11-multi-az-not-enough/">
+              When Infrastructure Fails: The Leadership Accountability Gap
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-11-11T00:00:00Z">
+                November 11, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              7-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/leadership/">Leadership</a>
+      <span class="separator">•</span>
+    <a href="/categories/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="/categories/2025/">2025</a></div>
+
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>In the past 12 months, we’ve witnessed infrastructure failures we never thought would happen. AWS went dark for 15 hours because two systems wrote to the same DNS entry. Google Cloud collapsed globally from a null pointer exception. South Korea permanently lost 858 terabytes of government data because backups were “too large.” A CrowdStrike update crashed 8.5 million Windows systems worldwide.</p>
+<p>These weren’t just technical incidents. They were leadership failures dressed up as technical ones.</p>
+<hr>
+<h2 id="the-parade-of-preventable-disasters">
+  The Parade of Preventable Disasters
+  <a class="heading-link" href="#the-parade-of-preventable-disasters">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Let’s look at what happened in 2025:</p>
+<ul>
+<li><strong>AWS (October 20):</strong> A race condition between two DNS workers created an empty endpoint for DynamoDB. Manual intervention took more than 15 hours. The root cause was a uncaught version mismatch.</li>
+<li><strong>Google Cloud (June 12):</strong> The gatekeeper for all API calls crashed on a null pointer exception. No feature flags, no phased rollout, and a single process brought down over 50 services globally.</li>
+<li><strong>Microsoft Azure (October 29):</strong> A malformed configuration bypassed validation checks and cascaded across all edge nodes, taking down Microsoft 365, Teams, and Azure Front Door.</li>
+<li><strong>South Korea Government (September 26):</strong> 858 terabytes of data were lost forever after a battery explosion. Backups had been labeled “too expensive.”</li>
+<li><strong>CrowdStrike (July 19, 2024):</strong> A single mismatched configuration field deployed globally bricked millions of systems, grounding planes and halting hospital operations.</li>
+</ul>
+<p>Each incident shared the same DNA: single points of failure in supposedly distributed systems, missing validation, and an inability to translate technical risk into business consequence.</p>
+
+    <p style="">
+        <img src="/assets/img/multiAZ_dependencies.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Generated with AI</strong> ∙ 11 November 2025 at 06:03 am
+        </span>
+    </p>
+
+<hr>
+<h2 id="the-pattern-monolithic-control-planes-and-missing-safeguards">
+  The Pattern: Monolithic Control Planes and Missing Safeguards
+  <a class="heading-link" href="#the-pattern-monolithic-control-planes-and-missing-safeguards">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Infrastructure resilience requires understanding interdependencies, risk propagation, and recovery behaviors — not only at the system level, but across the entire lifecycle of the infrastructure. Yet every major failure this year stemmed from predictable causes:</p>
+<p><strong>Single points of failure masquerading as distributed systems.</strong><br>
+DynamoDB DNS, GCP Service Control, Azure Front Door — all presented as redundant, yet collapsed system-wide.</p>
+<p><strong>Absent feature flags and phased rollouts.</strong><br>
+Global deployment without staging, rollback, or isolation.</p>
+<p><strong>Validation that doesn’t validate.</strong><br>
+Misconfigured or missing checks, treating procedural errors as edge cases.</p>
+<p><strong>Recovery architectures that create secondary disasters.</strong><br>
+Herd effects, retry storms, and synchronous restarts amplifying the impact.</p>
+<p>These are not software bugs — they are governance failures. The systems worked as designed; the leadership frameworks around them did not.</p>
+<hr>
+<h2 id="the-accountability-vacuum">
+  The Accountability Vacuum
+  <a class="heading-link" href="#the-accountability-vacuum">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The post-mortems are always the same: root cause identified, processes to be reviewed, no executive consequences, and the next failure already coded into the roadmap.</p>
+<p>The <strong>Uptime Institute’s 2025 data</strong> shows that human procedural violations are now the leading cause of major outages — rising every year. Technology isn’t failing us; management discipline is.</p>
+<p>The missing element isn’t redundancy or tooling. It’s leadership that enforces architecture integrity, demands operational proof instead of checklists, and is willing to trade speed for resilience.</p>
+<hr>
+<h2 id="what-real-infrastructure-leadership-looks-like">
+  What Real Infrastructure Leadership Looks Like
+  <a class="heading-link" href="#what-real-infrastructure-leadership-looks-like">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Odisha’s transformation in India is a rare counterexample. After thousands died in the 1999 cyclone, the state built a dedicated disaster management authority with real power, invested in local resilience, and tested response systems continuously. By 2019, a cyclone of similar strength caused under 100 deaths.</p>
+<p>They didn’t just fix infrastructure; they fixed accountability.<br>
+That’s what real leadership looks like.</p>
+<hr>
+<h2 id="the-executive-decision">
+  The Executive Decision
+  <a class="heading-link" href="#the-executive-decision">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>When boards ask, “Are we protected?” most CTOs answer with comfort phrases: <em>We’re multi-AZ. We have DR plans. We follow best practices.</em></p>
+<p>The honest answer is usually: <em>We’re protected against yesterday’s failures. We’re still vulnerable to cascading interdependencies.</em></p>
+<p>That vulnerability is a choice. Every budget cycle, leaders trade resilience for speed, and every incident exposes that trade-off. The question is not whether systems will fail, but whether leaders will have the situational awareness to see how deeply connected their infrastructure truly is.</p>
+<hr>
+<p>Before you invest another euro or sprint cycle in “improving reliability,” pause and test how well your organization actually understands its own infrastructure. Most companies don’t fail because they lack redundancy — they fail because they never verify how those redundancies behave under stress. The checklist below is not about technology maturity; it’s about leadership maturity. It separates teams that hope their systems will survive from those that <em>know</em> they will.</p>
+<h2 id="your-infrastructure-security-checklist">
+  Your Infrastructure Security Checklist
+  <a class="heading-link" href="#your-infrastructure-security-checklist">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-kill-your-single-points-of-failure">
+  1. Kill Your Single Points of Failure
+  <a class="heading-link" href="#1-kill-your-single-points-of-failure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Map every service dependency. If one DNS record can take down your platform, you don’t have a distributed system, you have a distributed monolith. Design for partition tolerance, not just replication.</p>
+<h3 id="2-make-deployment-boring">
+  2. Make Deployment Boring
+  <a class="heading-link" href="#2-make-deployment-boring">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Feature flags for everything touching control planes. Phased rollouts with real-world validation between phases. Automated rollback triggers. If deployment feels exciting, you’re doing it wrong.</p>
+<h3 id="3-test-cascading-recovery">
+  3. Test Cascading Recovery
+  <a class="heading-link" href="#3-test-cascading-recovery">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Don’t just test failover, test what happens when everything tries to recover simultaneously. AWS learned this lesson at customer expense, yours shouldn’t.</p>
+<h3 id="4-price-disaster-honestly">
+  4. Price Disaster Honestly
+  <a class="heading-link" href="#4-price-disaster-honestly">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Calculate the cost of:</p>
+<ul>
+<li>15-hour total outage</li>
+<li>Permanent data loss</li>
+<li>Manual recovery of every endpoint</li>
+<li>Regulatory fines and lawsuits</li>
+<li>Key employee burnout or departure</li>
+</ul>
+<p>Present these numbers quarterly. Make them feel real.</p>
+<h3 id="5-create-technical-business-translation-layer">
+  5. Create Technical-Business Translation Layer
+  <a class="heading-link" href="#5-create-technical-business-translation-layer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Every technical leader needs to speak both languages fluently. “DNS race condition” becomes “€50 million in lost transactions.” “No backup budget” becomes “bankruptcy risk.”</p>
+<h3 id="6-establish-clear-accountability">
+  6. Establish Clear Accountability
+  <a class="heading-link" href="#6-establish-clear-accountability">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Who gets fired if your platform is down for 15 hours? If the answer is “nobody” or “the ops team,” you have an accountability problem. Infrastructure failures at this scale are executive failures.</p>
+<hr>
+<h2 id="a-german-reflection-when-interdependencies-turn-to-fragility">
+  A German Reflection: When Interdependencies Turn to Fragility
+  <a class="heading-link" href="#a-german-reflection-when-interdependencies-turn-to-fragility">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Nowhere is this challenge more visible than in Germany’s healthcare backbone — the <strong>Telematikinfrastruktur (TI)</strong>. It was built to securely connect doctors, pharmacies, insurers, and patients — a textbook example of a regulated, multi-layered system.</p>
+<p>In theory, the TI is redundant and robust. In practice, it operates as a tightly coupled dependency chain:<br>
+Konnektoren → VPN services → central authentication → application services (ePA, eRezept, KIM) → smartcard validation.</p>
+<p>A failure in any layer ripples upward. The <strong>Arvato Systems outage in February 2024</strong> proved this: a single misconfigured certificate validation chain halted national authentication for 45 minutes. Redundant data centers didn’t help — the failure propagated through the chain exactly as designed.</p>
+<p>The upcoming <strong>RSA-to-ECC migration</strong> amplifies this risk. If handled poorly, it could simultaneously invalidate 130,000 medical facilities’ Konnektoren, smartcards, and terminals — a synchronized failure triggered by a single deadline.</p>
+<p>The cause isn’t technology. It’s a <strong>leadership gap in managing complexity</strong>.<br>
+Rigid compliance schedules from Gematik collide with operational realities from vendors like Arvato and CGM. No one owns end-to-end reliability. Each participant optimizes their silo while the whole system drifts toward systemic fragility.</p>
+<p>The German case is not an anomaly — it’s a magnified reflection of what happens everywhere when leaders stop enforcing <em>architectural atomization</em>. Redundancy without separation becomes interlock. Process without accountability becomes chaos.</p>
+<hr>
+
+    <p style="">
+        <img src="/assets/img/multiAZ_boardroom_view.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Generated with AI</strong> ∙ 11 November 2025 at 06:03 am
+        </span>
+    </p>
+
+<h2 id="the-lesson-for-every-leader">
+  The Lesson for Every Leader
+  <a class="heading-link" href="#the-lesson-for-every-leader">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The Telematikinfrastruktur shows that even the most regulated systems can collapse under the weight of their own dependencies when leadership loses architectural overview. Complexity isn’t the enemy — unmanaged interdependency is.</p>
+<p>Modern infrastructure demands leaders who:</p>
+<ul>
+<li><strong>Enforce atomization.</strong> Break systems into independently testable, recoverable units.</li>
+<li><strong>Understand dependencies.</strong> Know where shared failure paths exist and eliminate them.</li>
+<li><strong>Hold ownership.</strong> Assign clear accountability across vendors and teams.</li>
+<li><strong>Translate architecture into business terms.</strong> Make resilience a KPI, not a compliance label.</li>
+</ul>
+<p>Because whether it’s AWS, Google, or Germany’s national health network, the real risk is never in the cloud region or the data center.<br>
+It’s in the failure to see how all the pieces connect — until they fail together.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2025
+     Axel Schulz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
