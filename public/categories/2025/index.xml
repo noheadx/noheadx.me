@@ -6,14 +6,14 @@
     <description>Recent content in 2025 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>When Infrastructure Fails: The Leadership Accountability Gap in Modern Disasters</title>
+      <title>When Infrastructure Fails: The Leadership Accountability Gap</title>
       <link>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</guid>
-      <description>From AWS&amp;rsquo;s 15-hour DNS failure to South Korea&amp;rsquo;s permanent data loss, 2025&amp;rsquo;s infrastructure disasters reveal a crisis of technical leadership and decision-making</description>
+      <description>From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.</description>
     </item>
     <item>
       <title>The micro-apps revolution: Can building software be too easy?</title>

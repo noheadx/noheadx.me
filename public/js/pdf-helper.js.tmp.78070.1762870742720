@@ -1,0 +1,192 @@
+/**
+ * Helper functions for using jsPDF in blog posts
+ *
+ * Example usage in your markdown/HTML:
+ *
+ * <button onclick="generateSimplePDF()">Download as PDF</button>
+ *
+ * Or create your own custom function:
+ *
+ * <script>
+ * function myCustomPDF() {
+ *   const { jsPDF } = window.jspdf;
+ *   const doc = new jsPDF();
+ *
+ *   doc.text("Hello from my post!", 10, 10);
+ *   doc.save("my-document.pdf");
+ * }
+ * </script>
+ * <button onclick="myCustomPDF()">Generate PDF</button>
+ */
+
+/**
+ * Generate a simple PDF of the current post content
+ */
+function generateSimplePDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    // Page settings
+    const pageWidth = doc.internal.pageSize.getWidth();
+    const pageHeight = doc.internal.pageSize.getHeight();
+    const marginLeft = 15;
+    const marginRight = 15;
+    const marginTop = 20;
+    const marginBottom = 20;
+    const maxWidth = pageWidth - marginLeft - marginRight;
+    let yPosition = marginTop;
+
+    // Get post title
+    const title = document.querySelector('.post-title h1')?.innerText || 'Blog Post';
+
+    // Get post date
+    const date = document.querySelector('.post-meta time')?.innerText || '';
+
+    // Get post content element
+    const contentElement = document.querySelector('.post-content');
+
+    // Add title
+    doc.setFontSize(18);
+    doc.setFont(undefined, 'bold');
+    const titleLines = doc.splitTextToSize(title, maxWidth);
+    doc.text(titleLines, marginLeft, yPosition);
+    yPosition += (titleLines.length * 7) + 5;
+
+    // Add date
+    doc.setFontSize(10);
+    doc.setFont(undefined, 'normal');
+    doc.setTextColor(100);
+    doc.text(date, marginLeft, yPosition);
+    yPosition += 10;
+    doc.setTextColor(0);
+
+    // Function to check if we need a new page
+    function checkPageBreak(heightNeeded) {
+        if (yPosition + heightNeeded > pageHeight - marginBottom) {
+            doc.addPage();
+            yPosition = marginTop;
+            return true;
+        }
+        return false;
+    }
+
+    // Process content by paragraphs
+    if (contentElement) {
+        const elements = contentElement.children;
+        doc.setFontSize(11);
+
+        for (let element of elements) {
+            // Handle images
+            if (element.tagName === 'IMG' || element.querySelector('img')) {
+                const img = element.tagName === 'IMG' ? element : element.querySelector('img');
+                if (img && img.complete && img.naturalHeight !== 0) {
+                    try {
+                        // Calculate image dimensions
+                        const imgWidth = Math.min(maxWidth, 120);
+                        const imgHeight = (img.naturalHeight / img.naturalWidth) * imgWidth;
+
+                        checkPageBreak(imgHeight + 10);
+
+                        // Create canvas to convert image
+                        const canvas = document.createElement('canvas');
+                        canvas.width = img.naturalWidth;
+                        canvas.height = img.naturalHeight;
+                        const ctx = canvas.getContext('2d');
+                        ctx.drawImage(img, 0, 0);
+
+                        const imgData = canvas.toDataURL('image/jpeg', 0.8);
+                        doc.addImage(imgData, 'JPEG', marginLeft, yPosition, imgWidth, imgHeight);
+                        yPosition += imgHeight + 10;
+                    } catch (e) {
+                        console.warn('Failed to add image to PDF:', e);
+                    }
+                }
+                continue;
+            }
+
+            // Get text content
+            const text = element.innerText.trim();
+            if (!text) continue;
+
+            // Handle headings
+            if (element.tagName.match(/^H[1-6]$/)) {
+                checkPageBreak(15);
+                yPosition += 5;
+                doc.setFont(undefined, 'bold');
+                const headingSize = 16 - parseInt(element.tagName[1]);
+                doc.setFontSize(Math.max(11, headingSize));
+                const headingLines = doc.splitTextToSize(text, maxWidth);
+                doc.text(headingLines, marginLeft, yPosition);
+                yPosition += (headingLines.length * (headingSize * 0.4)) + 5;
+                doc.setFont(undefined, 'normal');
+                doc.setFontSize(11);
+                continue;
+            }
+
+            // Handle code blocks
+            if (element.tagName === 'PRE' || element.querySelector('code')) {
+                checkPageBreak(20);
+                doc.setFont('courier', 'normal');
+                doc.setFontSize(9);
+                doc.setFillColor(245, 245, 245);
+                const codeLines = doc.splitTextToSize(text, maxWidth - 4);
+                const codeHeight = codeLines.length * 4 + 4;
+
+                if (checkPageBreak(codeHeight)) {
+                    // Code block was moved to new page
+                }
+
+                doc.rect(marginLeft - 2, yPosition - 3, maxWidth + 4, codeHeight, 'F');
+                doc.text(codeLines, marginLeft, yPosition);
+                yPosition += codeHeight + 5;
+                doc.setFont(undefined, 'normal');
+                doc.setFontSize(11);
+                continue;
+            }
+
+            // Handle regular paragraphs
+            const lines = doc.splitTextToSize(text, maxWidth);
+            const paragraphHeight = lines.length * 5;
+
+            checkPageBreak(paragraphHeight + 5);
+
+            doc.text(lines, marginLeft, yPosition);
+            yPosition += paragraphHeight + 5;
+        }
+    }
+
+    // Save the PDF
+    const filename = title.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.pdf';
+    doc.save(filename);
+}
+
+/**
+ * Generate a PDF with custom styling
+ */
+function generateStyledPDF(title, content, options = {}) {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const defaults = {
+        titleFontSize: 18,
+        contentFontSize: 12,
+        marginLeft: 15,
+        marginTop: 20,
+        maxWidth: 180,
+        filename: 'document.pdf'
+    };
+
+    const opts = { ...defaults, ...options };
+
+    // Add title
+    doc.setFontSize(opts.titleFontSize);
+    doc.text(title, opts.marginLeft, opts.marginTop);
+
+    // Add content
+    doc.setFontSize(opts.contentFontSize);
+    const lines = doc.splitTextToSize(content, opts.maxWidth);
+    doc.text(lines, opts.marginLeft, opts.marginTop + 15);
+
+    // Save
+    doc.save(opts.filename);
+}

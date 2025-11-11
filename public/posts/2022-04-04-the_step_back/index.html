@@ -83,6 +83,15 @@
 
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="/js/pdf-helper.js"></script>
+
+
+
 </head>
 
 
@@ -154,6 +163,10 @@
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
               3-minute read
+            </span>
+            <span class="pdf-version">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              <a href="#" onclick="generateSimplePDF(event); return false;">PDF version</a>
             </span>
           </div>
           
