@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2022 on The CTO Trap</title>
-    <link>http://localhost:1313/categories/2022/</link>
-    <description>Recent content in 2022 on The CTO Trap</description>
+    <title>Careeer on The CTO Trap</title>
+    <link>http://localhost:1313/categories/careeer/</link>
+    <description>Recent content in Careeer on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/2022/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/careeer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taking a Step Back to Leap Forward: A Reflection on Career Choices</title>
       <link>http://localhost:1313/posts/2022-04-04-the_step_back/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2022-04-04-the_step_back/</guid>
       <description>Three years later, data confirms that stepping back from leadership wasn’t retreat — it was strategic repositioning.</description>
-    </item>
-    <item>
-      <title>The CTO trap</title>
-      <link>http://localhost:1313/posts/2022-03-16-cto-trap/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-03-16-cto-trap/</guid>
-      <description>Walking the thin line between being an executive, tech lead and human being in a company.</description>
     </item>
   </channel>
 </rss>
