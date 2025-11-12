@@ -184,7 +184,7 @@
 
       <div class="post-content">
         
-        <p>In the past 12 months, we’ve witnessed infrastructure failures we never thought would happen. AWS went dark for 15 hours because two systems wrote to the same DNS entry. Google Cloud collapsed globally from a null pointer exception. South Korea permanently lost 858 terabytes of government data because backups were “too large.” A CrowdStrike update crashed 8.5 million Windows systems worldwide.</p>
+        <p>In the past 12 months, we’ve witnessed infrastructure failures we never thought would happen. AWS went dark for 15 hours because two systems wrote to the same DNS entry. Google Cloud experienced a global outage due to a null pointer exception. South Korea permanently lost 858 terabytes of government data because backups were “too large.” A CrowdStrike update crashed 8.5 million Windows systems worldwide.</p>
 <p>These weren’t just technical incidents. They were leadership failures dressed up as technical ones.</p>
 <hr>
 <h2 id="the-parade-of-preventable-disasters">
@@ -221,13 +221,13 @@
 </h2>
 <p>Infrastructure resilience requires understanding interdependencies, risk propagation, and recovery behaviors — not only at the system level, but across the entire lifecycle of the infrastructure. Yet every major failure this year stemmed from predictable causes:</p>
 <p><strong>Single points of failure masquerading as distributed systems.</strong><br>
-DynamoDB DNS, GCP Service Control, Azure Front Door — all presented as redundant, yet collapsed system-wide.</p>
+DynamoDB DNS, GCP Service Control, and Azure Front Door — all presented as redundant, yet collapsed system-wide.</p>
 <p><strong>Absent feature flags and phased rollouts.</strong><br>
 Global deployment without staging, rollback, or isolation.</p>
 <p><strong>Validation that doesn’t validate.</strong><br>
 Misconfigured or missing checks, treating procedural errors as edge cases.</p>
 <p><strong>Recovery architectures that create secondary disasters.</strong><br>
-Herd effects, retry storms, and synchronous restarts amplifying the impact.</p>
+Herd effects, retry storms, and synchronous restarts amplify the impact.</p>
 <p>These are not software bugs — they are governance failures. The systems worked as designed; the leadership frameworks around them did not.</p>
 <hr>
 <h2 id="the-accountability-vacuum">
@@ -239,7 +239,7 @@ Herd effects, retry storms, and synchronous restarts amplifying the impact.</p>
 </h2>
 <p>The post-mortems are always the same: root cause identified, processes to be reviewed, no executive consequences, and the next failure already coded into the roadmap.</p>
 <p>The <strong>Uptime Institute’s 2025 data</strong> shows that human procedural violations are now the leading cause of major outages — rising every year. Technology isn’t failing us; management discipline is.</p>
-<p>The missing element isn’t redundancy or tooling. It’s leadership that enforces architecture integrity, demands operational proof instead of checklists, and is willing to trade speed for resilience.</p>
+<p>The missing element isn’t redundancy or tooling. It’s leadership that enforces architectural integrity, demands operational proof rather than checklists, and is willing to trade speed for resilience.</p>
 <hr>
 <h2 id="what-real-infrastructure-leadership-looks-like">
   What Real Infrastructure Leadership Looks Like
@@ -248,7 +248,7 @@ Herd effects, retry storms, and synchronous restarts amplifying the impact.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Odisha’s transformation in India is a rare counterexample. After thousands died in the 1999 cyclone, the state built a dedicated disaster management authority with real power, invested in local resilience, and tested response systems continuously. By 2019, a cyclone of similar strength caused under 100 deaths.</p>
+<p>Odisha’s transformation in India is a rare counterexample. After thousands died in the 1999 cyclone, the state established a dedicated disaster management authority with real power, invested in local resilience, and continuously tested response systems. By 2019, a cyclone of similar strength caused fewer than 100 deaths.</p>
 <p>They didn’t just fix infrastructure; they fixed accountability.<br>
 That’s what real leadership looks like.</p>
 <hr>
@@ -278,7 +278,7 @@ That’s what real leadership looks like.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Map every service dependency. If one DNS record can take down your platform, you don’t have a distributed system, you have a distributed monolith. Design for partition tolerance, not just replication.</p>
+<p>Map every service dependency. If one DNS record can take down your platform, you don’t have a distributed system; you have a distributed monolith. Design for partition tolerance, not just replication.</p>
 <h3 id="2-make-deployment-boring">
   2. Make Deployment Boring
   <a class="heading-link" href="#2-make-deployment-boring">
@@ -294,7 +294,7 @@ That’s what real leadership looks like.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Don’t just test failover, test what happens when everything tries to recover simultaneously. AWS learned this lesson at customer expense, yours shouldn’t.</p>
+<p>Don’t just test failover, test what happens when everything tries to recover simultaneously. AWS learned this lesson at customer expense; yours shouldn’t.</p>
 <h3 id="4-price-disaster-honestly">
   4. Price Disaster Honestly
   <a class="heading-link" href="#4-price-disaster-honestly">
@@ -341,8 +341,8 @@ Konnektoren → VPN services → central authentication → application services
 <p>A failure in any layer ripples upward. The <strong>Arvato Systems outage in February 2024</strong> proved this: a single misconfigured certificate validation chain halted national authentication for 45 minutes. Redundant data centers didn’t help — the failure propagated through the chain exactly as designed.</p>
 <p>The upcoming <strong>RSA-to-ECC migration</strong> amplifies this risk. If handled poorly, it could simultaneously invalidate 130,000 medical facilities’ Konnektoren, smartcards, and terminals — a synchronized failure triggered by a single deadline.</p>
 <p>The cause isn’t technology. It’s a <strong>leadership gap in managing complexity</strong>.<br>
-Rigid compliance schedules from Gematik collide with operational realities from vendors like Arvato and CGM. No one owns end-to-end reliability. Each participant optimizes their silo while the whole system drifts toward systemic fragility.</p>
-<p>The German case is not an anomaly — it’s a magnified reflection of what happens everywhere when leaders stop enforcing <em>architectural atomization</em>. Redundancy without separation becomes interlock. Process without accountability becomes chaos.</p>
+Rigid gematik compliance schedules clash with operational realities at vendors like Arvato and CGM. No one owns end-to-end reliability. Each participant optimizes their silo while the whole system drifts toward systemic fragility.</p>
+<p>The German case is not an anomaly — it’s a magnified reflection of what happens everywhere when leaders stop enforcing <em>architectural atomization</em>. Redundancy without separation becomes an interlock. Process without accountability becomes chaos.</p>
 <hr>
 
     <p style="">
@@ -367,7 +367,7 @@ Rigid compliance schedules from Gematik collide with operational realities from 
 <li><strong>Hold ownership.</strong> Assign clear accountability across vendors and teams.</li>
 <li><strong>Translate architecture into business terms.</strong> Make resilience a KPI, not a compliance label.</li>
 </ul>
-<p>Because whether it’s AWS, Google, or Germany’s national health network, the real risk is never in the cloud region or the data center.<br>
+<p>Whether it’s AWS, Google, or Germany’s national health network, the real risk is never in the cloud region or the data center.<br>
 It’s in the failure to see how all the pieces connect — until they fail together.</p>
 
       </div>
