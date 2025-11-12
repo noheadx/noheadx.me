@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  The CTO trap · The CTO Trap
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Axel Schulz">
+<meta name="description" content="Walking the thin line between being an executive, tech lead and human being in a company.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The CTO trap">
+  <meta name="twitter:description" content="Walking the thin line between being an executive, tech lead and human being in a company.">
+
+<meta property="og:url" content="http://localhost:1313/posts/2020-03-16-cto-trap/">
+  <meta property="og:site_name" content="The CTO Trap">
+  <meta property="og:title" content="The CTO trap">
+  <meta property="og:description" content="Walking the thin line between being an executive, tech lead and human being in a company.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-03-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-03-16T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/2020-03-16-cto-trap/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="/js/pdf-helper.js"></script>
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      The CTO Trap
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About Me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/2020-03-16-cto-trap/">
+              The CTO trap
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2020-03-16T00:00:00Z">
+                March 16, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              8-minute read
+            </span>
+            <span class="pdf-version">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              <a href="#" onclick="generateSimplePDF(event); return false;">PDF version</a>
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/leadership/">Leadership</a>
+      <span class="separator">•</span>
+    <a href="/categories/2020/">2020</a></div>
+
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Every CTO starts by building systems. Over time, the system starts building them. Expectations grow, responsibilities multiply, and suddenly, the person who once wrote clean code now spends their days debugging culture, communication, and strategy. That’s the trap — and every technology leader eventually steps into it.</p>
+<h2 id="establishing-the-foundation">
+  Establishing the Foundation
+  <a class="heading-link" href="#establishing-the-foundation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>As a Chief Technology Officer, your role centers on technology. Passion for technical details and staying current with advancements is crucial. Solving complex problems and mastering hardware and software are the foundations of your leadership.</p>
+<p>For those who relate, the drive to move beyond features and products emerges. You want to use your knowledge to shape an entire company. CEOs value people who can navigate technology, explain the &lsquo;black box,&rsquo; and understand the challenges of running a business.</p>
+<h2 id="navigating-the-dilemma">
+  Navigating the Dilemma
+  <a class="heading-link" href="#navigating-the-dilemma">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>A CTO does more than understand technology. You are more than a manager, mentor, or leader; you steer the company&rsquo;s course. The people you hire shape the culture, which grows from the bottom up, rather than being imposed from above. Your interactions affect the company&rsquo;s technical success and your team&rsquo;s motivation.</p>
+<p>And that&rsquo;s just the human side. Add in the strategic decisions about technologies, processes, and partnerships, and it can feel like the company&rsquo;s future rests on your shoulders. Your actions can define both the company&rsquo;s fate and its employees&rsquo; experiences.</p>
+<p>Now, let&rsquo;s engage in an honest appraisal:
+Consider: how many can bridge business and technology, translating for engineers, executives, and customers without leaving anyone behind? Few can. Yet that&rsquo;s the expectation. Now, you&rsquo;re managing strategy, people, and politics, not just systems.</p>
+<p>That’s the CTO trap: when technical mastery turns into total responsibility.</p>
+
+    <p style="">
+        <img src="/assets/img/CTOtrap_trap.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>The CTO alone at the bridge, only surrounded by data, responsibility, and the illusion of control. </strong>
+        </span>
+    </p>
+
+<p>Who can adeptly shape teams, recruit, and enable speedy, efficient onboarding? Those who make technology decisions focus on speed, future-proofing, and calculated risks.</p>
+<p>The paradox: CTOs often lead not just in technology, but in people management and strategic thinking. Sometimes, the volume of responsibility can feel overwhelming.</p>
+<p>This is the &ldquo;CTO trap&rdquo;: the expectation to manage every responsibility alone. No one can meet all these demands perfectly.</p>
+<h2 id="the-liberation">
+  The Liberation
+  <a class="heading-link" href="#the-liberation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>How should you manage all this? The answer is to acknowledge your limits, delegate, and foster collaboration among leaders. This approach helps avoid burnout and drives the company forward.</p>
+<ol>
+<li>
+<p><strong>Commence with Self-Leadership and Embrace the Wider Perspective.</strong> Embarking on the journey to build something extraordinary necessitates a profound realization – success extends beyond technology. While coding may represent the more straightforward aspect of this endeavor, the overarching vision demands a broader perspective. If your CEO envisions you as the company&rsquo;s savior, embrace the challenge. Echoing the wisdom of Peter Drucker, &ldquo;Leadership is about doing the right thing.&rdquo; Understanding that the &lsquo;C&rsquo; in your CTO title stands for &ldquo;company&rdquo; is paramount. This realization places the onus squarely on your shoulders, and rightly so – as an executive, you wield influence not just over technology but the entire organizational landscape. Reject the victim&rsquo;s role; instead, adopt a driver&rsquo;s mindset to chart the course to success. Recognize that the company&rsquo;s success relies on your ability to navigate the intricacies of technology and the broader challenges of leadership and business strategy. Seizing the executive role involves transcending the confines of coding to orchestrate a symphony of success where every note resonates with the harmonious progression of the entire company.</p>
+</li>
+<li>
+<p><strong>Build an Exceptional Team.</strong> Collaboration makes everything more manageable; the most extraordinary results stem from a collective effort. While you may excel in certain areas, genuine success requires a team. Assembling a group of skilled, motivated individuals and fostering collaboration and efficiency among them is akin to witnessing a miraculous process. It’s like building a vessel for a long voyage — each team member becomes part of the hull, the sails, the rigging. It takes time, alignment, and care. A team that rows together will always outpace a single genius at the helm. Team development is the same. Success is never guaranteed, and failure is not uncommon. However, the impact of a successful outcome is so profound that the endeavor is always worthwhile. People are the linchpin of a great team. Begin by selecting individuals you enjoy working with and cultivating small groups around them. The initial focus should not be solely on the technical skills these early &ldquo;seeds&rdquo; bring but on their ability to lead, guide, and mentor others. It is crucial to identify individuals who align with your work philosophy and can propagate your approach to collaboration within their teams. Cultivate individuals who are solid multipliers of your leadership qualities – construct your rat pack!</p>
+</li>
+</ol>
+
+    <p style="">
+        <img src="/assets/img/CTOtrap_liberation.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Breaking the illusion of self-reliance is when leadership becomes collaboration. </strong>
+        </span>
+    </p>
+
+<ol start="3">
+<li>
+<p><strong>Understand the Consequences of Your Choices!</strong> Strategic decisions hold a special place in my preferences. While they lack the immediacy of operational choices, their significance lies in the profound impact they can make. The results of a strategic decision may unfold over weeks, months, or even years. Whether it involves entering a new market, introducing an additional feature to a product, or adopting a new database technology, the eventual outcome can save your resources, enhance profitability, or outmaneuver competitors. Crafting strategic decisions can be challenging, as alternative options may seem more accessible, quicker, or cost-effective. However, &ldquo;strategic&rdquo; emphasizes their role in positioning your company and product in the market. Merely aligning with the competition and relying on their missteps is insufficient; you must stay ahead and gain a competitive edge. These decisions demand foresight, anticipating the market&rsquo;s future direction, amplifying their substantial impact. While numerous books delve into the art of strategic decision-making, I won&rsquo;t go into those details here. The key is acknowledging the  inherent nature of your decision and its far-reaching consequences.</p>
+</li>
+<li>
+<p><strong>Follow Your Passion!</strong> The irresistible desire to unravel the inner workings of various systems has been a driving force throughout my journey – from exploring games to navigating complex business systems and delving into virtualization. Every CTO reflects on the catalyst that propelled them into the tech sphere. The enduring curiosity and passion for utilizing bits and bytes to craft products for real-world use are foundational. The fascination with technology persists despite the awareness that there are always more proficient developers, architects, and SREs. Grateful for the enduring reliability of compilers, which operate much like they did two decades ago, I dedicate time each week to this passion. Whether engaging in pair programming sessions with developers (often more for their amusement than mine) or delving into script hacking, this deliberate commitment keeps me grounded and connected to the core of the technology.</p>
+</li>
+</ol>
+<h2 id="observe---experiment---iterate">
+  Observe - Experiment - Iterate
+  <a class="heading-link" href="#observe---experiment---iterate">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Leadership is undeniably challenging, but as the adage goes, &ldquo;If it hurts, do it more often.&rdquo; Take a dedicated moment each week for self-reflection and ponder a few straightforward queries:
+Can you effectively guide the company&rsquo;s technical trajectory, or do you feel trapped between the CEO, customers, and shareholders?
+What viable options are available, and how might they prove beneficial?
+Is it possible to reclaim the helm and steer the company towards evolution?
+Whom can you engage in discussion to gain a fresh perspective?
+Continuous improvement is critical. Regular self-reflection helps you spot areas for growth and sets the tone for your team. Your proactive learning and adaptation are how you escape the CTO trap.</p>
+<h2 id="embrace-the-journey">
+  Embrace the Journey
+  <a class="heading-link" href="#embrace-the-journey">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Being a CTO means constant growth and challenge. Recognizing the &ldquo;CTO trap&rdquo; is essential for success in technology leadership. The following insights further support your journey:</p>
+<ul>
+<li>
+<p><strong>Foster a Learning Culture</strong>
+Embrace the fact that technology is ever-evolving. Encourage a learning culture within your team and across the company. Invest in continuous training, provide resources, and create an environment where everyone feels empowered to stay up to date on the latest industry trends. This keeps your team sharp and fosters a dynamic atmosphere that aligns with the fast-paced nature of the tech world.</p>
+</li>
+<li>
+<p><strong>Balance Short-Term and Long-Term Goals</strong>
+Striking the right balance between short-term goals (such as meeting project deadlines) and long-term vision (like anticipating industry shifts) is crucial. Getting caught up in day-to-day operations is easy, but always keep an eye on the bigger picture. This duality requires a delicate touch – ensuring immediate tasks are handled efficiently while making decisions contributing to the company&rsquo;s future success.</p>
+</li>
+<li>
+<p><strong>Communication is Key</strong>
+As a CTO, your ability to communicate effectively is paramount. Translate complex technical jargon into language understandable by non-technical stakeholders. Regularly update the leadership team on technological advancements and their potential impacts. Clear communication builds trust and ensures that everyone in the company is on the same page regarding the company&rsquo;s technological direction.</p>
+</li>
+<li>
+<p><strong>Embrace Innovation</strong>
+Innovation is at the core of technology. Encourage a culture where creativity and innovation thrive. This doesn&rsquo;t necessarily mean groundbreaking inventions every day, but it does foster an environment where team members feel empowered to suggest improvements and try new ideas. Innovations, big or small, contribute to the company&rsquo;s overall progress.</p>
+</li>
+<li>
+<p><strong>Prioritize Your Well-being</strong>
+The pressures of a CTO role can be intense, often leading to burnout. Prioritize your well-being by setting realistic expectations for yourself and your team. Delegate responsibilities, learn to say no when necessary, and make time for activities outside of work that rejuvenate you. A healthy and balanced leader can make better decisions and effectively guide the team.</p>
+</li>
+<li>
+<p><strong>Celebrate Achievements</strong>
+In the relentless pursuit of improvement, it&rsquo;s essential to celebrate big and small successes. Acknowledge your team&rsquo;s achievements, and take a moment to appreciate the progress made. Positive reinforcement boosts morale and reinforces the idea that hard work pays off.</p>
+</li>
+</ul>
+
+    <p style="">
+        <img src="/assets/img/CTOtrap_journey.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Once you stop fighting the storm, you start steering through it.</strong>
+        </span>
+    </p>
+
+<h2 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The role of a CTO is undeniably challenging, requiring a unique blend of technical prowess, leadership skills, and a strategic mindset. The &ldquo;CTO trap&rdquo; is a reality. Still, with the right attitude, a supportive team, and a commitment to continuous improvement, you can navigate the challenges and emerge as a successful technology leader.</p>
+<p>Escaping the CTO trap isn’t about doing less — it’s about leading differently. The best CTOs don’t fight the storm; they learn to navigate it.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2025
+     Axel Schulz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

@@ -6,8 +6,15 @@
     <description>Recent content in Culture on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cultural Compass – Vision and Mindset as the CTO’s True Leverage</title>
+      <link>http://localhost:1313/posts/2022-08-15-cto_setup/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-08-15-cto_setup/</guid>
+      <description>A CTO’s true influence begins long before code is written. It lies in shaping a clear vision and the company mindset that turns that vision into motion.</description>
+    </item>
     <item>
       <title>T.E.A.M. - To Evolve And Mingle</title>
       <link>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</link>

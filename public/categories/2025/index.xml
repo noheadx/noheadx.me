@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/posts/2025-10-09-enforcement_trap/</guid>
       <description>It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.</description>
     </item>
+    <item>
+      <title>The Cultural Compass – Vision and Mindset as the CTO’s True Leverage</title>
+      <link>http://localhost:1313/posts/2022-08-15-cto_setup/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-08-15-cto_setup/</guid>
+      <description>A CTO’s true influence begins long before code is written. It lies in shaping a clear vision and the company mindset that turns that vision into motion.</description>
+    </item>
   </channel>
 </rss>

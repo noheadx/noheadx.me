@@ -38,6 +38,12 @@
     <loc>http://localhost:1313/posts/2024-02-28-dethroning_the_lead_idol/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/culture/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2022-08-15-cto_setup/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/2022/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,13 +53,13 @@
     <loc>http://localhost:1313/posts/2022-04-04-the_step_back/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/2020/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2022-03-16-cto-trap/</loc>
-    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/2019/</loc>
-    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/culture/</loc>
     <lastmod>2019-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</loc>
