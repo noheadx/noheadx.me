@@ -2,87 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The CTO Trap</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://www.noheadx.me/categories/</link>
     <description>Recent content in Categories on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.noheadx.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025</title>
-      <link>http://localhost:1313/categories/2025/</link>
+      <link>http://www.noheadx.me/categories/2025/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2025/</guid>
+      <guid>http://www.noheadx.me/categories/2025/</guid>
       <description></description>
     </item>
     <item>
       <title>Leadership</title>
-      <link>http://localhost:1313/categories/leadership/</link>
+      <link>http://www.noheadx.me/categories/leadership/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/leadership/</guid>
+      <guid>http://www.noheadx.me/categories/leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>http://localhost:1313/categories/tech/</link>
+      <link>http://www.noheadx.me/categories/tech/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/tech/</guid>
+      <guid>http://www.noheadx.me/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>2024</title>
-      <link>http://localhost:1313/categories/2024/</link>
+      <link>http://www.noheadx.me/categories/2024/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2024/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Culture</title>
-      <link>http://localhost:1313/categories/culture/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/culture/</guid>
+      <guid>http://www.noheadx.me/categories/2024/</guid>
       <description></description>
     </item>
     <item>
       <title>2022</title>
-      <link>http://localhost:1313/categories/2022/</link>
+      <link>http://www.noheadx.me/categories/2022/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2022/</guid>
+      <guid>http://www.noheadx.me/categories/2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Careeer</title>
-      <link>http://localhost:1313/categories/careeer/</link>
+      <link>http://www.noheadx.me/categories/careeer/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/careeer/</guid>
+      <guid>http://www.noheadx.me/categories/careeer/</guid>
       <description></description>
     </item>
     <item>
       <title>2020</title>
-      <link>http://localhost:1313/categories/2020/</link>
-      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2020/</guid>
+      <link>http://www.noheadx.me/categories/2020/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.noheadx.me/categories/2020/</guid>
       <description></description>
     </item>
     <item>
-      <title>2019</title>
-      <link>http://localhost:1313/categories/2019/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2019/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Workplace</title>
-      <link>http://localhost:1313/categories/workplace/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/workplace/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>2018</title>
-      <link>http://localhost:1313/categories/2018/</link>
-      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2018/</guid>
+      <title>Culture</title>
+      <link>http://www.noheadx.me/categories/culture/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.noheadx.me/categories/culture/</guid>
       <description></description>
     </item>
   </channel>

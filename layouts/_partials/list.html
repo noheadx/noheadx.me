@@ -13,14 +13,16 @@
   {{ .Content }}
   <ul>
     {{ range .Paginator.Pages }}
-    <li>
-      <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-      <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }} </a> 
-    </li>
-    <li>
-      <span style="margin-left: 31rem; margin-top: 0px; margin-bottom: 2rem; font-style: italic;">
-      {{ .Summary }}
-      </span>
+    <li class="post-item">
+      <div class="post-header">
+        <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+        <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+      </div>
+      {{ if .Summary }}
+      <div class="post-summary">
+        {{ .Summary }}
+      </div>
+      {{ end }}
     </li>
     {{ end }}
   </ul>

@@ -2,85 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/2025/</loc>
+    <loc>http://www.noheadx.me/categories/2025/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://www.noheadx.me/categories/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/leadership/</loc>
+    <loc>http://www.noheadx.me/categories/leadership/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://www.noheadx.me/posts/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>http://www.noheadx.me/categories/tech/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</loc>
+    <loc>http://www.noheadx.me/posts/2025-11-11-multi-az-not-enough/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</loc>
+    <loc>http://www.noheadx.me/posts/2025-11-04-micro_apps_revolution/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://www.noheadx.me/</loc>
     <lastmod>2025-10-10T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-10-09-enforcement_trap/</loc>
+    <loc>http://www.noheadx.me/posts/2025-10-09-enforcement_trap/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/2024/</loc>
+    <loc>http://www.noheadx.me/categories/2024/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</loc>
+    <loc>http://www.noheadx.me/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024-02-28-dethroning_the_lead_idol/</loc>
+    <loc>http://www.noheadx.me/posts/2024-02-28-dethroning_the_lead_idol/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/culture/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2022-08-15-cto_setup/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/2022/</loc>
+    <loc>http://www.noheadx.me/categories/2022/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/careeer/</loc>
+    <loc>http://www.noheadx.me/categories/careeer/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-04-04-the_step_back/</loc>
+    <loc>http://www.noheadx.me/posts/2022-04-04-the_step_back/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/2020/</loc>
+    <loc>http://www.noheadx.me/categories/2020/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.noheadx.me/categories/culture/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.noheadx.me/posts/2020-09-14-the_crew_manifest/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.noheadx.me/posts/2020-08-16-the_cultural_compass/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.noheadx.me/posts/2020-03-16-cto-trap/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-03-16-cto-trap/</loc>
-    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <loc>http://www.noheadx.me/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/2019/</loc>
-    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+    <loc>http://www.noheadx.me/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/2019-02-19-how_i_wanna_work_pt3-team/</loc>
-    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/workplace/</loc>
-    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/2018/</loc>
-    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2018-09-13-how_i_wanna_work_pt2-mindset/</loc>
-    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2018-08-15-how_i_wanna_work_pt1-vision/</loc>
-    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/aboutme/</loc>
+    <loc>http://www.noheadx.me/aboutme/</loc>
   </url>
 </urlset>

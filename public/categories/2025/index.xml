@@ -2,39 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2025 on The CTO Trap</title>
-    <link>http://localhost:1313/categories/2025/</link>
+    <link>http://www.noheadx.me/categories/2025/</link>
     <description>Recent content in 2025 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.noheadx.me/categories/2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When Infrastructure Fails: The Leadership Accountability Gap</title>
-      <link>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</link>
+      <link>http://www.noheadx.me/posts/2025-11-11-multi-az-not-enough/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</guid>
+      <guid>http://www.noheadx.me/posts/2025-11-11-multi-az-not-enough/</guid>
       <description>From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.</description>
     </item>
     <item>
       <title>The micro-apps revolution: Can building software be too easy?</title>
-      <link>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</link>
+      <link>http://www.noheadx.me/posts/2025-11-04-micro_apps_revolution/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</guid>
+      <guid>http://www.noheadx.me/posts/2025-11-04-micro_apps_revolution/</guid>
       <description>AI-created micro-apps are creating technical debt faster than ever, while eroding the very skills that make engineering teams valuable. How do CTOs shift from managing execution to managing decision quality at scale?</description>
     </item>
     <item>
       <title>The Enforcement Trap: Why Pressuring Developers Guarantees Failure</title>
-      <link>http://localhost:1313/posts/2025-10-09-enforcement_trap/</link>
+      <link>http://www.noheadx.me/posts/2025-10-09-enforcement_trap/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-10-09-enforcement_trap/</guid>
+      <guid>http://www.noheadx.me/posts/2025-10-09-enforcement_trap/</guid>
       <description>It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.</description>
-    </item>
-    <item>
-      <title>The Cultural Compass – Vision and Mindset as the CTO’s True Leverage</title>
-      <link>http://localhost:1313/posts/2022-08-15-cto_setup/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-08-15-cto_setup/</guid>
-      <description>A CTO’s true influence begins long before code is written. It lies in shaping a clear vision and the company mindset that turns that vision into motion.</description>
     </item>
   </channel>
 </rss>

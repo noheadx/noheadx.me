@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2022 on The CTO Trap</title>
-    <link>http://localhost:1313/categories/2022/</link>
+    <link>http://www.noheadx.me/categories/2022/</link>
     <description>Recent content in 2022 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/2022/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.noheadx.me/categories/2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taking a Step Back to Leap Forward: A Reflection on Career Choices</title>
-      <link>http://localhost:1313/posts/2022-04-04-the_step_back/</link>
+      <link>http://www.noheadx.me/posts/2022-04-04-the_step_back/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-04-04-the_step_back/</guid>
+      <guid>http://www.noheadx.me/posts/2022-04-04-the_step_back/</guid>
       <description>Three years later, data confirms that stepping back from leadership wasn’t retreat — it was strategic repositioning.</description>
     </item>
   </channel>
