@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 on The CTO Trap</title>
-    <link>http://localhost:57441/categories/2024/</link>
+    <link>http://localhost:57947/categories/2024/</link>
     <description>Recent content in 2024 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57441/categories/2024/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57947/categories/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leaders vs. Managers: Decoding the Dance in the Tech Arena</title>
-      <link>http://localhost:57441/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</link>
+      <link>http://localhost:57947/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57441/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</guid>
+      <guid>http://localhost:57947/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</guid>
       <description>On the fundamental difference between a leader and a manger, and why it is a good thing to have both.</description>
     </item>
     <item>
       <title>Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond</title>
-      <link>http://localhost:57441/posts/2024-02-28-dethroning_the_lead_idol/</link>
+      <link>http://localhost:57947/posts/2024-02-28-dethroning_the_lead_idol/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57441/posts/2024-02-28-dethroning_the_lead_idol/</guid>
+      <guid>http://localhost:57947/posts/2024-02-28-dethroning_the_lead_idol/</guid>
       <description>Looking at different leader types from military, business and tech - and why they&amp;rsquo;re called leaders.</description>
     </item>
   </channel>

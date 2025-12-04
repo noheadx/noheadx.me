@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What Is Good Software? on The CTO Trap</title>
-    <link>http://localhost:50239/series/what-is-good-software/</link>
+    <link>http://localhost:57947/series/what-is-good-software/</link>
     <description>Recent content in What Is Good Software? on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50239/series/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57947/series/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What Makes Software Good Has Changed (And Leadership Hasn&#39;t Noticed)</title>
-      <link>http://localhost:50239/posts/2025-12-04-good_software_pt1/</link>
+      <title>The Leadership Failures Creating Bad Software at Scale</title>
+      <link>http://localhost:57947/posts/2025-12-09-good_software_pt2/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50239/posts/2025-12-04-good_software_pt1/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;For most of the past thirty years, software quality was judged through a simple lens. If the system worked, the business could operate on it, and users were not constantly complaining, executives called it good. The internal workings of the system were largely invisible to leadership. Architecture, maintainability, long-term cost—these were topics left to engineering teams, not senior decision-makers.&lt;/p&gt;&#xA;&lt;p&gt;That mindset persisted because it was sufficient during a time when systems changed slowly, data volumes were limited, and software played a narrower role in everyday operations. Today, software defines how businesses operate, scale, and compete. Yet, many organizations still evaluate software using the same criteria as used in 1995.&lt;/p&gt;</description>
+      <guid>http://localhost:57947/posts/2025-12-09-good_software_pt2/</guid>
+      <description>Bad software is rarely the result of weak engineers. It is the result of weak leadership decisions.</description>
     </item>
   </channel>
 </rss>

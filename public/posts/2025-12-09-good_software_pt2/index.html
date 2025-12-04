@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  The Leadership Failures Creating Bad Software at Scale · The CTO Trap
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Axel Schulz">
+<meta name="description" content="Bad software is rarely the result of weak engineers. It is the result of weak management decisions.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Leadership Failures Creating Bad Software at Scale">
+  <meta name="twitter:description" content="Bad software is rarely the result of weak engineers. It is the result of weak management decisions.">
+
+<meta property="og:url" content="http://localhost:1313/posts/2025-12-09-good_software_pt2/">
+  <meta property="og:site_name" content="The CTO Trap">
+  <meta property="og:title" content="The Leadership Failures Creating Bad Software at Scale">
+  <meta property="og:description" content="Bad software is rarely the result of weak engineers. It is the result of weak management decisions.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-04T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/2025-12-09-good_software_pt2/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.css" media="screen">
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="/js/pdf-helper.js"></script>
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      The CTO Trap
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About Me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/2025-12-09-good_software_pt2/">
+              The Leadership Failures Creating Bad Software at Scale
+            </a>
+          </h1>
+          
+          <h2 class="subtitle">Why most technical debt is created long before a single line of code is written</h2>
+          
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-12-04T00:00:00Z">
+                December 4, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              8-minute read
+            </span>
+            <span class="pdf-version">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              <a href="#" onclick="generateSimplePDF(event); return false;">PDF version</a>
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/what-is-good-software/">What Is Good Software?</a>
+      <span class="separator">•</span>
+    <a href="/categories/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="/categories/2025/">2025</a></div>
+
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Bad software does not appear out of nowhere. It is not primarily caused by inexperienced engineers, rushed sprints, or a shortage of talent. In modern organizations, poor software is often created by management decisions that prioritize speed over clarity, output over understanding, and optimism over discipline.</p>
+<p>Most managers outside the development department still assume that technical debt is a technical problem. It’s created by engineers, fixed by engineers, and occurs only within the development organization. But this view ignores what actually shapes outcomes.</p>
+<p>The largest drivers of poor software are unclear priorities, undefined problems, unrealistic timelines, architectural shortcuts, and unstable metrics, and these are created well before any developer writes a single line of code. They originate in board rooms where pressure outweighs context and assumptions replace structured discovery.</p>
+<p>This article explains how management habits (not technology, btw) can create subpar software at scale, even as generative AI exacerbates the issue.</p>
+
+    <p style="">
+        <img src="/assets/img/GoodSoftware_LeadershipFailure.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Leadership decisions propagate downward into technical debt</strong> ∙ 04 December 2025
+        </span>
+    </p>
+
+<h2 id="the-first-failure-skipping-the-problem">
+  The First Failure: Skipping the Problem
+  <a class="heading-link" href="#the-first-failure-skipping-the-problem">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Many CTOs and product leaders claim to follow structured approaches to discovery. They reference frameworks like the Double Diamond, but in practice, only half of it is used. The diverging first phase, problem discovery, is skipped entirely, replaced by solution discussions that start too early and end too late.</p>
+<p>As the <a href="https://www.designcouncil.org.uk/our-resources/framework-for-innovation-double-diamond/"  class="external-link" target="_blank" rel="noopener"><strong>British Design Council&rsquo;s Double Diamond Framework (2005)</strong></a> clearly states: effective solutions come from first understanding the problem, then exploring options, and only then converging on the right answer.</p>
+<p>However, most product teams operate as if the first diamond does not exist. They frame “problems” through internal assumptions, incomplete anecdotes, or pressure from stakeholders. The result is predictable:</p>
+<ul>
+<li>Teams solve symptoms instead of causes</li>
+<li>Designs reflect guesses rather than evidence</li>
+<li>Solutions scale the wrong behavior</li>
+<li>Technical debt accumulates because the wrong system is built quickly</li>
+</ul>
+<p>This failure is not theoretical. McKinsey’s research on structured decision-making shows that organizations using disciplined problem-first approaches deliver <strong>up to 40 percent faster</strong> because they avoid rework and misalignment.</p>
+<p>When leaders skip the first diamond, they force teams into blind execution. Velocity increases temporarily. Debt increases permanently.</p>
+<h3 id="treating-symptoms-instead-of-causes">
+  Treating Symptoms Instead of Causes
+  <a class="heading-link" href="#treating-symptoms-instead-of-causes">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>One scenario appears across industries: a performance issue emerges, a spike in incidents occurs, or a critical workflow becomes unreliable. Tech or product leads often responds by mandating fixes without inquiring into the root cause of the problem.</p>
+<p>A recurring pattern unfolds:</p>
+<ol>
+<li>Teams patch the failure.</li>
+<li>Symptoms improve temporarily.</li>
+<li>The system becomes more fragile.</li>
+<li>The underlying cause remains untouched.</li>
+</ol>
+<p>Treating symptoms is easier than reframing the entire system, especially under pressure. But surface fixes rarely solve systemic issues. They only postpone them.</p>
+<p><a href="https://www.noheadx.me/posts/2025-10-09-responsibility_of_few/"  class="external-link" target="_blank" rel="noopener">My article “The Enforcement Trap”</a> illustrates this dynamic perfectly. The executive saw symptoms and demanded immediate solutions. Only after deeper involvement did they realize the underlying problem was organizational alignment, not engineering competence.</p>
+<p>When leadership treats symptoms rather than causes, technical debt is not a side effect. It becomes the organizational strategy.</p>
+<h2 id="the-second-failure-ai-as-an-excuse-for-speed">
+  The Second Failure: AI as an Excuse for Speed
+  <a class="heading-link" href="#the-second-failure-ai-as-an-excuse-for-speed">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Generative AI has reshaped how engineers write code, but interpretations of its leadership implications vary widely. Many organizations treat AI as an accelerator that justifies cutting corners.</p>
+<p>But the reality looks slightly different.</p>
+<p><a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research"  class="external-link" target="_blank" rel="noopener"><strong>GitClear’s 2024–2025 analysis</strong></a> of 153 million lines of AI-assisted code revealed an <strong>4× increase in code duplication</strong>, a collapse in refactoring, and a surge in low-quality code fragments.</p>
+<p>This is not because developers are careless. It is because management encourages speed and uses AI as validation for unrealistic timelines. The mindset changes subtly:</p>
+<ul>
+<li>“We can deliver more now that we have AI.”</li>
+<li>“Quality gates can be delayed! We need to ship.”</li>
+<li>“AI writes the boilerplate; we only need to fix the rest.”</li>
+</ul>
+<p>AI accelerates the production of functional code, but it does not strengthen architectural reasoning. It does not enforce boundaries. It does not handle complexity. It does not differentiate between what works and what lasts.</p>
+<p>Executive teams that assume “AI will close the gaps” often end up creating systems that appear productive but become impossible to maintain.</p>
+<h3 id="the-army-of-juniors-problem">
+  The “Army of Juniors” Problem
+  <a class="heading-link" href="#the-army-of-juniors-problem">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>One of the most telling analyses comes from <a href="https://www.ox.security/wp-content/uploads/2025/10/Army-of-Juniors-The-AI-Code-Security-Crisis.pdf"  class="external-link" target="_blank" rel="noopener">Ox Security’s “Army of Juniors: The AI Code Security Crisis”</a> report (2025).</p>
+<p>The report highlights a sharp increase in code that is:</p>
+<ul>
+<li>functional but context-ignorant</li>
+<li>syntactically correct but structurally weak</li>
+<li>composed of fragments that violate architectural rules</li>
+<li>insecure due to hallucinated dependencies and flawed assumptions</li>
+</ul>
+<p>AI-assisted development does not create senior-level judgment. It amplifies the lack of it.</p>
+<p>When organizations rely heavily on AI without compensating for governance, they effectively turn their engineering departments into “armies of juniors”. These are teams capable of producing large amounts of code quickly but lacking the architectural oversight needed to keep systems stable.</p>
+<p>This phenomenon explains why many companies see increasing output while stability, security, and maintainability deteriorate.</p>
+<p>The cause is not AI. The cause is management that confuses democratization with readiness.</p>
+<h3 id="managements-blind-spot-misaligned-metrics">
+  Management’s Blind Spot: Misaligned Metrics
+  <a class="heading-link" href="#managements-blind-spot-misaligned-metrics">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Another major source of organizational fragility is the continued reliance on outdated or superficial metrics. Management celebrates numbers that have little correlation with actual quality:</p>
+<ul>
+<li>feature adoption</li>
+<li>velocity</li>
+<li>story points</li>
+<li>releases per month</li>
+<li>deployment frequency</li>
+<li>number of AI-generated tasks closed</li>
+</ul>
+<p>These metrics say nothing about structural integrity. They measure motion, not progress.</p>
+<p>Meanwhile, technical debt compounds quietly. Integrations get brittle. Ownership becomes unclear. AI-generated code adds silent duplication. Architectural boundaries blur. Review quality decreases as workloads increase.</p>
+<p>Leaders rarely see this until a crisis occurs. And when the crisis hits, they often conclude the engineering team is the problem.</p>
+<p>But the real issue is that the managers measured the wrong things.</p>
+<h2 id="the-third-failure-confusing-democratization-with-capability">
+  The Third Failure: Confusing Democratization with Capability
+  <a class="heading-link" href="#the-third-failure-confusing-democratization-with-capability">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The rise of no-code tools, AI code assistants, and developer automation creates a powerful illusion: that building software is becoming easier. It is becoming faster, certainly. But ease is not the same as capability.</p>
+<p>Democratization enables more people to create functional tools. It does not equip them to create maintainable, secure, scalable, or long-lived systems.</p>
+<p>Management often assumes:</p>
+<ul>
+<li>“If everyone can build, everyone can build well.”</li>
+<li>“If tools generate code, expertise matters less.”</li>
+<li>“If AI writes the boilerplate, we can move faster safely.”</li>
+</ul>
+<p>None of these assumptions holds true.</p>
+<p>Tools extend capability, but they do not replace judgment. They accelerate output, not understanding. They amplify both strengths and weaknesses.</p>
+<p>Management teams that mistake democratization for competence routinely approve systems that work on day one but collapse on day 180.</p>
+<h3 id="the-heartflow-lesson-catastrophic-failure-comes-from-above">
+  The HeartFlow Lesson: Catastrophic Failure Comes From Above
+  <a class="heading-link" href="#the-heartflow-lesson-catastrophic-failure-comes-from-above">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>A telling example of management-induced failure comes from <a href="https://www.infoq.com/news/2025/11/heartflow-migration-recovery/"  class="external-link" target="_blank" rel="noopener"><strong>HeartFlow’s microservices migration</strong></a>, documented in an InfoQ case study.</p>
+<p>HeartFlow attempted a large-scale migration without proper architectural governance, correct sequencing, or alignment. The result:</p>
+<ul>
+<li>migration failure</li>
+<li>multi-quarter delays</li>
+<li>compounding defects</li>
+<li>instability</li>
+<li>growing operational risk</li>
+</ul>
+<p>What saved the initiative was not rewriting code. It was reframing leadership expectations, re-establishing governance, and aligning incentives around quality and sequencing rather than speed.</p>
+<p>The case demonstrates that catastrophic failures originate not from “bad engineers” but from management misjudgment, misalignment, and pressure without context.</p>
+<h3 id="why-management-decisions-carry-more-weight-today">
+  Why Management Decisions Carry More Weight Today
+  <a class="heading-link" href="#why-management-decisions-carry-more-weight-today">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In earlier eras, engineering teams had more control over quality. Today, the environment is more brittle:</p>
+<ul>
+<li>systems are interconnected</li>
+<li>Regulatory pressure has increased</li>
+<li>security threats are constant</li>
+<li>AI generates volume without understanding</li>
+<li>teams are globally distributed</li>
+<li>product cycles are faster</li>
+<li>reliability expectations are higher</li>
+<li>data volumes are massive</li>
+</ul>
+<p>This means management decisions are magnified. A single misaligned directive can generate exponential downstream cost.</p>
+<p>Examples include:</p>
+<ul>
+<li>launching features without architectural reviews</li>
+<li>setting deadlines before understanding complexity</li>
+<li>allowing AI-generated code without governance</li>
+<li>undervaluing refactoring because it “produces nothing visible.”</li>
+<li>praising speed without evaluating consequences</li>
+<li>ignoring debt until it reaches crisis level</li>
+</ul>
+<p>Technical missteps are rarely engineering failures. They are organizational ones.</p>
+<h2 id="the-fourth-failure-the-absence-of-guardrails">
+  The Fourth Failure: The Absence of Guardrails
+  <a class="heading-link" href="#the-fourth-failure-the-absence-of-guardrails">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>CEOs often treats governance as a slowdown. In reality, guardrails increase delivery speed because they eliminate ambiguity and prevent architectural drift.</p>
+<p>Leading companies apply consistent guardrails such as:</p>
+<ul>
+<li><a href="https://ctosub.com/p/the-ctos-double-diamond"  class="external-link" target="_blank" rel="noopener">Problem Briefs before solution discussions</a></li>
+<li>Architectural review as a standard, not an exception</li>
+<li>Clear definitions of ownership</li>
+<li>Non-negotiable security norms</li>
+<li>Quality gates for AI-generated code</li>
+<li>Metrics that track system health, not just activity</li>
+</ul>
+<p>When these guardrails are absent, teams rely on intuition, negotiation, and improvisation to guide their decision. This works for small prototypes, not for enterprise systems.</p>
+<p>Organizations without guardrails do not fail quickly. They fail silently. Until the system grows large enough to reveal the accumulated damage.</p>
+<h3 id="management-creates-technical-bankruptcy-when-it-measures-the-wrong-things">
+  Management Creates Technical Bankruptcy When It Measures the Wrong Things
+  <a class="heading-link" href="#management-creates-technical-bankruptcy-when-it-measures-the-wrong-things">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Two opposing worlds exist inside most companies:</p>
+<ul>
+<li>the world management believes exists</li>
+<li>the world engineering actually sees</li>
+</ul>
+<p>Leaders see dashboards full of green lights, features shipped, and forecasts met. Engineers often encounter duplicated logic, brittle integrations, unrealistic timelines, and escalating maintenance costs.</p>
+<p>When a CEO insists on measuring only growth and output, he encourages teams to hide the true state of the system. This is how technical bankruptcy occurs.</p>
+<p>Technical bankruptcy is not a sudden event. It is the cumulative effect of decisions made without understanding the system they influence.</p>
+
+    <p style="">
+        <img src="/assets/img/GoodSoftware_SymptomRoot.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Not fixing the root causes will end up in a symptom loop</strong> ∙ 04 December 2025
+        </span>
+    </p>
+
+<h2 id="summary">
+  Summary
+  <a class="heading-link" href="#summary">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Bad software does not appear because engineers lack the necessary skill. It appears because their management prioritizes speed over clarity, optimism over evidence, and metrics over outcomes. Modern systems are too interconnected, too rapidly changing, and too exposed to support traditional patterns of decision-making.</p>
+<p>Leadership failures create:</p>
+<ul>
+<li>misaligned incentives</li>
+<li>premature solutioning</li>
+<li>debt-friendly environments</li>
+<li>mislabeled systems</li>
+<li>rushed architectural decisions</li>
+<li>misplaced trust in automation</li>
+<li>unrealistic timelines</li>
+<li>blind spots in measurement</li>
+</ul>
+<p>When management fails to take responsibility for quality, technical debt becomes the standard operating model.</p>
+<p>The next article will examine the technical realities of building quality when AI writes most of the code and why discipline on management level is more important now than at any time in the past two decades.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2025
+     Axel Schulz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

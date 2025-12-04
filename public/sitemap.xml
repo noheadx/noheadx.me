@@ -2,70 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:57441/posts/</loc>
+    <loc>http://localhost:57947/categories/2025/</loc>
     <lastmod>2025-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/2025/</loc>
+    <loc>http://localhost:57947/categories/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/posts/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/series/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/categories/tech/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/posts/2025-12-09-good_software_pt2/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/categories/what-is-good-software/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/series/what-is-good-software/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/posts/2025-12-04-good_software_pt1/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:57947/categories/leadership/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/</loc>
+    <loc>http://localhost:57947/posts/2025-11-11-multi-az-not-enough/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/leadership/</loc>
-    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:57441/categories/tech/</loc>
-    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:57441/posts/2025-11-11-multi-az-not-enough/</loc>
-    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:57441/posts/2025-11-04-micro_apps_revolution/</loc>
+    <loc>http://localhost:57947/posts/2025-11-04-micro_apps_revolution/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/</loc>
+    <loc>http://localhost:57947/</loc>
     <lastmod>2025-10-10T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2025-10-09-enforcement_trap/</loc>
+    <loc>http://localhost:57947/posts/2025-10-09-enforcement_trap/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/2024/</loc>
+    <loc>http://localhost:57947/categories/2024/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</loc>
+    <loc>http://localhost:57947/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2024-02-28-dethroning_the_lead_idol/</loc>
+    <loc>http://localhost:57947/posts/2024-02-28-dethroning_the_lead_idol/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/2022/</loc>
+    <loc>http://localhost:57947/categories/2022/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/careeer/</loc>
+    <loc>http://localhost:57947/categories/careeer/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2022-04-04-the_step_back/</loc>
+    <loc>http://localhost:57947/posts/2022-04-04-the_step_back/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/2020/</loc>
+    <loc>http://localhost:57947/categories/2020/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/categories/culture/</loc>
+    <loc>http://localhost:57947/categories/culture/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2020-09-14-the_crew_manifest/</loc>
+    <loc>http://localhost:57947/posts/2020-09-14-the_crew_manifest/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2020-08-16-the_cultural_compass/</loc>
+    <loc>http://localhost:57947/posts/2020-08-16-the_cultural_compass/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/posts/2020-03-16-cto-trap/</loc>
+    <loc>http://localhost:57947/posts/2020-03-16-cto-trap/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57441/series/</loc>
+    <loc>http://localhost:57947/tags/</loc>
   </url><url>
-    <loc>http://localhost:57441/tags/</loc>
-  </url><url>
-    <loc>http://localhost:57441/aboutme/</loc>
+    <loc>http://localhost:57947/aboutme/</loc>
   </url>
 </urlset>
