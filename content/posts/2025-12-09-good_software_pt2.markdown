@@ -1,12 +1,12 @@
 ---
 title: "The Leadership Failures Creating Bad Software at Scale"
 subtitle: "Why most technical debt is created long before a single line of code is written"
-date: "2025-12-04"
+date: "2025-12-09T06:00:00"
 series: ["What is good software?"]
 part: 2
 summary: "Bad software is rarely the result of weak engineers. It is the result of weak management decisions."
 categories: ['What is good software?', 'Tech', '2025']
-draft: true
+draft: false
 ---
 ## Introduction
 Bad software does not appear out of nowhere. It is not primarily caused by inexperienced engineers, rushed sprints, or a shortage of talent. In modern organizations, poor software is often created by management decisions that prioritize speed over clarity, output over understanding, and optimism over discipline.
