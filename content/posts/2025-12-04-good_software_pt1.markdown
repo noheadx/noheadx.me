@@ -9,7 +9,7 @@ draft: false
 ---
 ## Introduction
 
-For most of the past thirty years, software quality was judged through a simple lens. If the system worked, the business could operate on it, and users were not constantly complaining, executives called it good. The internal workings of the system were largely invisible to board rooms. Architecture, maintainability, long-term cost—these were topics left to engineering teams, not senior decision-makers.
+For most of the past thirty years, software quality was judged through a simple lens. If the system worked, the business could operate on it, and users were not constantly complaining, executives called it good. The internal workings of the system were largely invisible to board rooms. Architecture, maintainability, long-term cost. These were topics left to engineering teams, not senior decision-makers.
 
 That mindset persisted because it was sufficient during a time when systems changed slowly, data volumes were limited, and software played a narrower role in everyday operations. Today, software defines how businesses operate, scale, and compete. Yet, many organizations still evaluate software using the same criteria as used in 1995.
 
