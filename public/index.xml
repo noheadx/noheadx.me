@@ -2,80 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The CTO Trap</title>
-    <link>http://www.noheadx.me/</link>
+    <link>http://localhost:50239/</link>
     <description>Recent content on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.noheadx.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50239/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Makes Software Good Has Changed</title>
+      <link>http://localhost:50239/posts/2025-12-04-good_software_pt1/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50239/posts/2025-12-04-good_software_pt1/</guid>
+      <description>The definition of good software has split into two realities. Most leaders still haven&amp;rsquo;t realized it.</description>
+    </item>
     <item>
       <title>When Infrastructure Fails: The Leadership Accountability Gap</title>
-      <link>http://www.noheadx.me/posts/2025-11-11-multi-az-not-enough/</link>
+      <link>http://localhost:50239/posts/2025-11-11-multi-az-not-enough/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2025-11-11-multi-az-not-enough/</guid>
+      <guid>http://localhost:50239/posts/2025-11-11-multi-az-not-enough/</guid>
       <description>From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.</description>
     </item>
     <item>
       <title>The micro-apps revolution: Can building software be too easy?</title>
-      <link>http://www.noheadx.me/posts/2025-11-04-micro_apps_revolution/</link>
+      <link>http://localhost:50239/posts/2025-11-04-micro_apps_revolution/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2025-11-04-micro_apps_revolution/</guid>
+      <guid>http://localhost:50239/posts/2025-11-04-micro_apps_revolution/</guid>
       <description>AI-created micro-apps are creating technical debt faster than ever, while eroding the very skills that make engineering teams valuable. How do CTOs shift from managing execution to managing decision quality at scale?</description>
     </item>
     <item>
       <title>The Enforcement Trap: Why Pressuring Developers Guarantees Failure</title>
-      <link>http://www.noheadx.me/posts/2025-10-09-enforcement_trap/</link>
+      <link>http://localhost:50239/posts/2025-10-09-enforcement_trap/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2025-10-09-enforcement_trap/</guid>
+      <guid>http://localhost:50239/posts/2025-10-09-enforcement_trap/</guid>
       <description>It&amp;rsquo;s 2025, 12 years after &amp;ldquo;The Phoenix Project&amp;rdquo;. Yet, there are companies that seem to be unaware of product and development culture.</description>
     </item>
     <item>
       <title>Leaders vs. Managers: Decoding the Dance in the Tech Arena</title>
-      <link>http://www.noheadx.me/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</link>
+      <link>http://localhost:50239/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</guid>
+      <guid>http://localhost:50239/posts/2024-05-02-how-to-tell-a-leader-from-a-manager/</guid>
       <description>On the fundamental difference between a leader and a manger, and why it is a good thing to have both.</description>
     </item>
     <item>
       <title>Dethroning the Idol: A Multi-Disciplinary Look at Leadership and Beyond</title>
-      <link>http://www.noheadx.me/posts/2024-02-28-dethroning_the_lead_idol/</link>
+      <link>http://localhost:50239/posts/2024-02-28-dethroning_the_lead_idol/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2024-02-28-dethroning_the_lead_idol/</guid>
+      <guid>http://localhost:50239/posts/2024-02-28-dethroning_the_lead_idol/</guid>
       <description>Looking at different leader types from military, business and tech - and why they&amp;rsquo;re called leaders.</description>
     </item>
     <item>
       <title>Taking a Step Back to Leap Forward: A Reflection on Career Choices</title>
-      <link>http://www.noheadx.me/posts/2022-04-04-the_step_back/</link>
+      <link>http://localhost:50239/posts/2022-04-04-the_step_back/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2022-04-04-the_step_back/</guid>
+      <guid>http://localhost:50239/posts/2022-04-04-the_step_back/</guid>
       <description>Three years later, data confirms that stepping back from leadership wasn’t retreat — it was strategic repositioning.</description>
     </item>
     <item>
       <title>The Crew Manifest – Building the Team That Builds the Company</title>
-      <link>http://www.noheadx.me/posts/2020-09-14-the_crew_manifest/</link>
+      <link>http://localhost:50239/posts/2020-09-14-the_crew_manifest/</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2020-09-14-the_crew_manifest/</guid>
+      <guid>http://localhost:50239/posts/2020-09-14-the_crew_manifest/</guid>
       <description>Vision gives direction, mindset defines motion. The team turns both into reality. Building the right crew is the CTO&amp;rsquo;s most important design decision.</description>
     </item>
     <item>
       <title>The Cultural Compass – Vision and Mindset as the CTO&#39;s True Leverage</title>
-      <link>http://www.noheadx.me/posts/2020-08-16-the_cultural_compass/</link>
+      <link>http://localhost:50239/posts/2020-08-16-the_cultural_compass/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2020-08-16-the_cultural_compass/</guid>
+      <guid>http://localhost:50239/posts/2020-08-16-the_cultural_compass/</guid>
       <description>A CTO’s true influence begins long before code is written. It lies in shaping a clear vision and the company mindset that turns that vision into motion.</description>
     </item>
     <item>
       <title>The CTO trap</title>
-      <link>http://www.noheadx.me/posts/2020-03-16-cto-trap/</link>
+      <link>http://localhost:50239/posts/2020-03-16-cto-trap/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/posts/2020-03-16-cto-trap/</guid>
+      <guid>http://localhost:50239/posts/2020-03-16-cto-trap/</guid>
       <description>Walking the thin line between being an executive, tech lead and human being in a company.</description>
     </item>
     <item>
       <title>Who I am</title>
-      <link>http://www.noheadx.me/aboutme/</link>
+      <link>http://localhost:50239/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.noheadx.me/aboutme/</guid>
+      <guid>http://localhost:50239/aboutme/</guid>
       <description>&lt;h3 id=&#34;heading&#34;&gt;&#xA;  &lt;em&gt;&amp;ldquo;You are a fool if you just do as I say. You should think for yourself and come up with a better idea than mine!&amp;rdquo;&lt;/em&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA; &lt;p style=&#34;text-align: right;&#34;&gt;(&lt;a href=&#34;https://www.linkedin.com/in/hlgr360/&#34; target=&#34;_blank&#34;&gt;Holger Reinhard&lt;/a&gt;, CTO)&lt;/p&gt; &#xA;&lt;p&gt;My professional past is a gift! I had the chance to work in different sectors with different responsibilities. In these positions, I had to work with various leadership and management styles as my line manager, customer, or partner. I saw what was working and what was not; I adapted some techniques for myself that I liked and left those behind that appalled me. As time passed, I started to see specific behavioral patterns with CxOs and other managers, so sharing my insights could at least create awareness, if not prevent a few of the destructive behaviors, which is why I started this blog.&lt;/p&gt;</description>
     </item>
   </channel>

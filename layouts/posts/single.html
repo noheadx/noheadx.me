@@ -11,6 +11,9 @@
               {{ .Title }}
             </a>
           </h1>
+          {{ with .Params.subtitle }}
+          <h2 class="subtitle">{{ . }}</h2>
+          {{ end }}
         </div>
         <div class="post-meta">
           <div class="date">

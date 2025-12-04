@@ -1,5 +1,18 @@
 /* Custom styles for post list */
 
+/* Post subtitle styling */
+.post-title .subtitle {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.colorscheme-dark .post-title .subtitle {
+  color: #999;
+}
+
 .container.list ul {
   list-style: none !important;
   padding: 0 !important;

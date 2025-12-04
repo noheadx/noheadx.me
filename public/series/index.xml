@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on The CTO Trap</title>
-    <link>http://www.noheadx.me/series/</link>
+    <link>http://localhost:50239/series/</link>
     <description>Recent content in Series on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://www.noheadx.me/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50239/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Good Software?</title>
+      <link>http://localhost:50239/series/what-is-good-software/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50239/series/what-is-good-software/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
