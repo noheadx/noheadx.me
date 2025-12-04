@@ -5,21 +5,21 @@ date: "2025-12-04T00:00:00Z"
 part: 1
 summary: "The definition of good software has split into two realities. Most leaders still haven't realized it."
 categories: ['What is good software?', 'Tech', '2025']
-draft: false
+draft: false    
 ---
 ## Introduction
 
-For most of the past thirty years, software quality was judged through a simple lens. If the system worked, the business could operate on it, and users were not constantly complaining, executives called it good. The internal workings of the system were largely invisible to leadership. Architecture, maintainability, long-term cost—these were topics left to engineering teams, not senior decision-makers.
+For most of the past thirty years, software quality was judged through a simple lens. If the system worked, the business could operate on it, and users were not constantly complaining, executives called it good. The internal workings of the system were largely invisible to board rooms. Architecture, maintainability, long-term cost—these were topics left to engineering teams, not senior decision-makers.
 
 That mindset persisted because it was sufficient during a time when systems changed slowly, data volumes were limited, and software played a narrower role in everyday operations. Today, software defines how businesses operate, scale, and compete. Yet, many organizations still evaluate software using the same criteria as used in 1995.
 
-The industry has shifted. The expectations placed on software have shifted. The capabilities available to teams have shifted. Good software now has a much broader meaning, and ignoring that widening scope has consequences that leadership cannot afford to overlook.
+But the industry has shifted. The expectations placed on software have shifted. The capabilities available to teams have shifted. Good software now has a much broader meaning, and ignoring that widening scope has consequences that no manager can afford to overlook.
 
 This first article sets the foundation for the entire series. It explains why the definition of “good software” has diverged into two competing realities—and why the gap between them is now creating operational risk, financial waste, and strategic misalignment.
 
 Everything that follows in the series builds on this point:
 
-**the definition has split, and leadership must finally acknowledge it.**
+**the definition has split, and management must finally acknowledge it.**
 
 {{< unsafe >}}
     <p style="">
@@ -42,7 +42,7 @@ Until recently, the working definition of good software inside most organization
 
 That definition made sense in an era where uptime was measured weekly, deployments were infrequent, and feature requests were negotiated in advance over a long period. In that environment, “working software” equaled “good software” because the thresholds were lower and the expectations narrower.
 
-Leadership, therefore, developed an intuition: if the system functions, the job is done. And the function was visible. Structural integrity was not.
+Tech managers, therefore, developed an intuition: if the system functions, the job is done. And the function was visible. Structural integrity was not.
 Today, that intuition is no longer reliable.
 
 
@@ -66,11 +66,11 @@ To handle these realities, systems must be structurally robust. That means:
 * clean data flows
 * safeguards against cascading failures
 
-These dimensions directly influence organizational agility and cost structure. But they are not visible through traditional leadership lenses.
+These dimensions directly influence organizational agility and cost structure. But they are not visible through traditional management lenses.
 
 A system that “works” today might still be a liability tomorrow. A system that merely runs is not the same as a system that scales. And a system that satisfies stakeholders now might still impose high hidden costs later.
 
-This is why the old definition fails: **the complexity of modern software environments has outpaced leadership’s mental model.**
+This is why the old definition fails: **the complexity of modern software environments has outpaced its leaders’ mental model.**
 
 ## The Business Case for Structural Quality
 Investing in software quality is often framed as an engineering preference. In reality, it is a financial decision with clear evidence behind it.
@@ -83,7 +83,7 @@ These numbers reflect two truths:
 1. Quality compounds positively in companies that prioritize it.
 2. Technical debt compounds negatively in companies that ignore it.
 
-The difference is leadership attention. Organizations that tie software quality to business outcomes tend to achieve greater success. Organizations that treat software merely as feature output lose.
+The difference is management attention. Organizations that tie software quality to business outcomes tend to achieve greater success. Organizations that treat software merely as feature output lose.
 
 ## The AI Productivity Shift—And Its Side-Effects
 The recent wave of AI-assisted development widened the gap between perception and reality. Companies see teams shipping more code at a faster rate and believe it signals progress. But the data suggests otherwise.
@@ -100,7 +100,7 @@ AI accelerates output, but it does not improve context or long-term judgment. It
 
 The resulting systems are functional but fragile. They appear complete until they are placed under real operational pressure, at which point underlying weaknesses become expensive.
 
-This divergence between visible progress and hidden instability is now the core leadership risk. Without new metrics and new thinking, leaders will mistake short-term speed for long-term health.
+This divergence between visible progress and hidden instability is now the core management risk. Without new metrics and new thinking, leaders will mistake short-term speed for long-term health.
 
 AI hasn’t changed what constitutes good software. It has changed how easily teams can create software that *looks* good but fails under scrutiny.
 
@@ -134,7 +134,7 @@ Individual creators need tools that:
 These systems are intentionally disposable. They are not designed for scale. Their value is speed and convenience.
 
 ### The Collision
-Problems arise when leadership fails to distinguish between these two categories.
+Problems arise when the CTO fails to distinguish between these two categories.
 * When enterprise systems are built like prototypes, they become brittle.
 * When prototypes are allowed to become business-critical, they buckle under load.
 This misalignment is now common. And it is costly.
@@ -152,6 +152,14 @@ A CTO’s blind spot is failing to classify systems upfront. When intent is uncl
 
 Systems without clear intent default to short-term decisions. Those decisions become embedded. And the cost to unwind them grows with every release.
 
+{{< unsafe >}}
+    <p style="">
+        <img src="/assets/img/GoodSoftware_BlindSpot.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Don't fall for the blind spot of classifying systems upfront</strong> ∙ 03 December 2025
+        </span>
+    </p>
+{{< /unsafe >}}
 
 ## The Cost of Misclassification
 Several industry resources reflect the consequences of misaligned quality expectations:
@@ -166,14 +174,14 @@ These academic and industry findings point to the same conclusion:
 _Systems without intentional quality boundaries impose unnecessary long-term cost._
 
 
-## Why Leadership Must Update Its Definition
-Modern product and engineering teams already understand the new definition of good software. They live with the consequences of poor foundations every day. Leadership, however, often continues to judge quality from the outside: successful demos, delivered features, and minimal user complaints.
+## Why Management Must Update Its Definition
+Modern product and engineering teams already understand the new definition of good software. They live with the consequences of poor foundations every day. Managers, however, often continue to judge quality from the outside: successful demos, delivered features, and minimal user complaints.
 
 That perspective is no longer adequate.
 
 Today’s systems degrade silently under the surface—through duplicated logic, fragile integrations, incomplete tests, unpredictable dependency chains, and layers of AI-generated code that lack architectural discipline.
 
-Leadership must update its definition for four reasons:
+Management must update its definition for four reasons:
 
 1. **The external environment has changed** - Systems must absorb more volatility and more dependencies than ever before.
 2. **The internal environment has changed** - Teams mix human-generated and AI-generated code. Without clear standards, variance explodes.
@@ -199,8 +207,8 @@ By classifying upfront, leaders eliminate unintentional debt, wasted effort, and
 ## Summary
 The definition of “good software” has changed. It now contains two incompatible realities: enterprise-grade durability and individual “good enough” disposability. Both matter. Both have value. But they cannot be treated the same.
 
-Most leadership teams still operate under the old definition, and this gap is now one of the primary reasons organizations create fragile, expensive, and unsustainable systems.
+Most executive teams still operate under the old definition, and this gap is now one of the primary reasons organizations create fragile, expensive, and unsustainable systems.
 
-In this series, we will examine how leadership behavior, team dynamics, AI-driven development, and organizational incentives shape software quality in 2025. But everything starts with the acknowledgment that “good” is no longer a single category.
+In this series, we will examine how management behavior, team dynamics, AI-driven development, and organizational incentives shape software quality in 2025. But everything starts with the acknowledgment that “good” is no longer a single category.
 
 Knowing which one you’re building is the first step toward making the right decisions.

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What Is Good Software? on The CTO Trap</title>
-    <link>http://localhost:57947/categories/what-is-good-software/</link>
+    <link>http://localhost:50717/categories/what-is-good-software/</link>
     <description>Recent content in What Is Good Software? on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57947/categories/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50717/categories/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Makes Software Good Has Changed</title>
-      <link>http://localhost:57947/posts/2025-12-04-good_software_pt1/</link>
+      <link>http://localhost:50717/posts/2025-12-04-good_software_pt1/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57947/posts/2025-12-04-good_software_pt1/</guid>
+      <guid>http://localhost:50717/posts/2025-12-04-good_software_pt1/</guid>
       <description>The definition of good software has split into two realities. Most leaders still haven&amp;rsquo;t realized it.</description>
     </item>
   </channel>
