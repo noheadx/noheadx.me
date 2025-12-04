@@ -1,11 +1,11 @@
 ---
 title: "What Makes Software Good Has Changed"
 subtitle: "Most tech leads still operate on a 1995 definition while the industry is in 2025"
-date: 2025-12-04
+date: "2025-12-04T00:00:00Z"
 part: 1
 summary: "The definition of good software has split into two realities. Most leaders still haven't realized it."
 categories: ['What is good software?', 'Tech', '2025']
-draft: true
+draft: false
 ---
 ## Introduction
 
