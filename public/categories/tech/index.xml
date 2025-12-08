@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on The CTO Trap</title>
-    <link>http://localhost:50717/categories/tech/</link>
+    <link>http://localhost:1313/categories/tech/</link>
     <description>Recent content in Tech on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50717/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2025 06:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Quality When AI Writes Most of Your Code</title>
+      <link>http://localhost:1313/posts/2025-12-14-good-software_pt3/</link>
+      <pubDate>Thu, 04 Dec 2025 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-12-14-good-software_pt3/</guid>
+      <description>AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated.</description>
+    </item>
     <item>
       <title>What Makes Software Good Has Changed</title>
-      <link>http://localhost:50717/posts/2025-12-04-good_software_pt1/</link>
+      <link>http://localhost:1313/posts/2025-12-04-good_software_pt1/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50717/posts/2025-12-04-good_software_pt1/</guid>
+      <guid>http://localhost:1313/posts/2025-12-04-good_software_pt1/</guid>
       <description>The definition of good software has split into two realities. Most leaders still haven&amp;rsquo;t realized it.</description>
     </item>
     <item>
       <title>When Infrastructure Fails: The Leadership Accountability Gap</title>
-      <link>http://localhost:50717/posts/2025-11-11-multi-az-not-enough/</link>
+      <link>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50717/posts/2025-11-11-multi-az-not-enough/</guid>
+      <guid>http://localhost:1313/posts/2025-11-11-multi-az-not-enough/</guid>
       <description>From AWS outages to Germany’s Telematikinfrastruktur, 2025 showed that resilience isn’t built in data centers — it’s enforced by leadership that understands complexity and owns interdependencies.</description>
     </item>
     <item>
       <title>The micro-apps revolution: Can building software be too easy?</title>
-      <link>http://localhost:50717/posts/2025-11-04-micro_apps_revolution/</link>
+      <link>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50717/posts/2025-11-04-micro_apps_revolution/</guid>
+      <guid>http://localhost:1313/posts/2025-11-04-micro_apps_revolution/</guid>
       <description>AI-created micro-apps are creating technical debt faster than ever, while eroding the very skills that make engineering teams valuable. How do CTOs shift from managing execution to managing decision quality at scale?</description>
     </item>
   </channel>
