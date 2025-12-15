@@ -2,11 +2,10 @@
 title: "Building Quality When AI Writes Most of Your Code"
 subtitle: "Why AI accelerates technical debt, and how leadership must respond"
 date: "2025-12-14T06:00:00"
-series: ["What is good software?"]
 part: 3
 summary: "AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated."
 categories: ['What is good software?', 'Tech', '2025']
-draft: true
+draft: false
 ---
 
 ## Introduction
