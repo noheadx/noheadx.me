@@ -3,28 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-14T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/2025/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2025-12-14-good-software_pt3/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-12-19-good_software_pt4/</loc>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tech/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-12-09-good_software_pt2/</loc>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/what-is-good-software/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/what-is-good-software/</loc>
-    <lastmod>2025-12-04T06:00:00+00:00</lastmod>
+    <lastmod>2025-12-09T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-12-04-good_software_pt1/</loc>
     <lastmod>2025-12-04T00:00:00+00:00</lastmod>
