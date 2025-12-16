@@ -1,12 +1,12 @@
 ---
 title: "Team Dynamics When Your 'Team' Might Be One Person and an AI"
 subtitle: "How AI reshapes collaboration, trust, and architectural integrity in modern engineering teams"
-date: "2025-12-09T06:00:00"
+date: "2025-12-19T06:00:00"
 series: ["What is good software?"]
 part: 4
 summary: "AI changes how teams work, learn, and make decisions. Leadership must understand these shifts to maintain quality and coherence in complex systems."
 categories: ['What is good software?', 'Tech', '2025']
-draft: true
+draft: false
 ---
 ## Introduction
 

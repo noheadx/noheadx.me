@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Building Quality When AI Writes Most of Your Code · The CTO Trap
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Axel Schulz">
+<meta name="description" content="AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building Quality When AI Writes Most of Your Code">
+  <meta name="twitter:description" content="AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated.">
+
+<meta property="og:url" content="http://localhost:1313/posts/2025-12-14-good_software_pt3/">
+  <meta property="og:site_name" content="The CTO Trap">
+  <meta property="og:title" content="Building Quality When AI Writes Most of Your Code">
+  <meta property="og:description" content="AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-14T06:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-14T06:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/2025-12-14-good_software_pt3/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.css" media="screen">
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="/js/pdf-helper.js"></script>
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      The CTO Trap
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About Me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/2025-12-14-good_software_pt3/">
+              Building Quality When AI Writes Most of Your Code
+            </a>
+          </h1>
+          
+          <h2 class="subtitle">Why AI accelerates technical debt, and how leadership must respond</h2>
+          
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-12-14T06:00:00Z">
+                December 14, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              7-minute read
+            </span>
+            <span class="pdf-version">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              <a href="#" onclick="generateSimplePDF(event); return false;">PDF version</a>
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/what-is-good-software/">What Is Good Software?</a>
+      <span class="separator">•</span>
+    <a href="/categories/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="/categories/2025/">2025</a></div>
+
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI has revolutionized the fundamental principles of software development. What once required teams of experienced engineers can now be generated in minutes by a single individual, prompting the development of large models. Code volume has exploded. Delivery cycles have accelerated. Barriers to entry have shrunk.</p>
+<p>But one thing has not changed: <strong>software systems still require architectural integrity, maintainability, and operational resilience.</strong></p>
+<p>And AI does not understand any of those things.</p>
+<p>Models generate code based on pattern probability, not system intent. They produce plausible implementations, not aligned designs. They optimize for completing tasks, not for preserving long-term integrity. And because AI operates at a machine scale, while organizations operate at a human scale, the mismatch creates exponential debt.</p>
+<p>Leadership (mindset, responsibility, strategic clarity) must recognize that AI does not remove the need for engineering discipline. It increases it. Managers may push for speed, but leadership must ensure the system can survive that speed.</p>
+<p>This article examines the technical mechanisms underlying AI-driven debt, the exponential nature of that curve, the importance of quality enforcement, and how leadership—not tooling—determines whether AI becomes an asset or a liability.## The Scale Mismatch: AI Generates More Than Organizations Can Absorb
+Historically, code volume scaled linearly with team size. That natural constraint limited architectural drift and duplication. AI removes that constraint entirely.</p>
+<p>According to <a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research"  class="external-link" target="_blank" rel="noopener"><strong>GitClear’s AI Code Quality Report (2024–2025)</strong></a>, based on 153 million lines of code:</p>
+<ul>
+<li>Code duplication increased <strong>4×</strong></li>
+<li>Refactoring sharply decreased</li>
+<li>Moved code (a proxy for structural improvement) hit an all-time low</li>
+<li>“Fractal duplication” emerged—similar logic copied across unrelated components</li>
+</ul>
+<p>The cause is straightforward:</p>
+<blockquote>
+<p><strong>AI generates functional code without understanding the system it joins.</strong></p>
+</blockquote>
+<p>Where engineers previously invested time in understanding the context before coding, AI inserts code instantly, bypassing the most critical step: interpreting the system architecture and intent.### Key Effect: Volume Exceeds Review Capacity
+AI increases:</p>
+<ul>
+<li>Code lines</li>
+<li>New functions</li>
+<li>New dependencies</li>
+<li>Branch complexity</li>
+<li>Edge-case permutations</li>
+</ul>
+<p>Meanwhile, review bandwidth remains limited by human capacity.</p>
+<p>Quality doesn’t degrade because engineers are sloppy.</p>
+<p>It degrades because <strong>AI produces more code than the organization can meaningfully evaluate</strong>.</p>
+<h2 id="three-vectors-of-ai-accelerated-technical-debt">
+  Three Vectors of AI-Accelerated Technical Debt
+  <a class="heading-link" href="#three-vectors-of-ai-accelerated-technical-debt">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI-driven debt is not simply “more bad code.” It emerges from three distinct vectors that interact and amplify each other.</p>
+<p>These vectors are:</p>
+<ol>
+<li><strong>Model Version Drift</strong></li>
+<li><strong>Code Generation Bloat</strong></li>
+<li><strong>Organizational Fragmentation</strong></li>
+</ol>
+<p>Combined, they produce exponential growth.
+
+    <p style="">
+        <img src="/assets/img/GoodSoftware_pt3_diagram_A.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Three Vectors of AI Technical Debt</strong> ∙ 05 December 2025
+        </span>
+    </p>
+
+Let’s examine each vector in depth.</p>
+<h2 id="1-model-version-drift">
+  1. Model Version Drift
+  <a class="heading-link" href="#1-model-version-drift">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Large models evolve constantly. Each new version changes:</p>
+<ul>
+<li>abstraction patterns</li>
+<li>control flow tendencies</li>
+<li>naming conventions</li>
+<li>library preferences</li>
+<li>error-handling styles</li>
+</ul>
+<p>This causes the codebase to <strong>fracture by generation</strong>.
+The code produced in March 2024 does not resemble the code produced in November 2025.</p>
+<p>Over time, the system develops geological strata:</p>
+<ul>
+<li>inconsistent styles</li>
+<li>incompatible abstractions</li>
+<li>divergent dependency sets</li>
+<li>unpredictable behavior in refactors</li>
+</ul>
+<p>Technical consequences:</p>
+<ul>
+<li>onboarding becomes slower</li>
+<li>readability decreases</li>
+<li>architectural drift increases</li>
+<li>tooling struggles to enforce consistent rules</li>
+</ul>
+<p>AI can create code faster than leadership can establish and synchronize standards.
+Without structural intent, drift becomes inevitable.</p>
+<h2 id="2-code-generation-bloat">
+  2. Code Generation Bloat
+  <a class="heading-link" href="#2-code-generation-bloat">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI does not write minimal code. It writes <strong>maximal, statistically safe</strong> code.</p>
+<p>Why?</p>
+<ul>
+<li>Verbosity reduces the risk of missing an edge case</li>
+<li>Large completions “feel” more correct to the model</li>
+<li>The reward structure favors elaboration, not elegance</li>
+</ul>
+<p>This leads to:</p>
+<ul>
+<li>unnecessary abstraction layers</li>
+<li>deeply nested conditionals</li>
+<li>verbose error handling</li>
+<li>repeated helper utilities</li>
+<li>redundant boilerplate</li>
+</ul>
+<p>This bloat increases:</p>
+<ul>
+<li>cyclomatic complexity</li>
+<li>testing surface area</li>
+<li>change risk</li>
+<li>merge conflicts</li>
+<li>long-term operational cost</li>
+</ul>
+<p>Even when the code “works,” it imposes <strong>future cost the moment it is generated</strong>.</p>
+<h2 id="3-organizational-fragmentation">
+  3. Organizational Fragmentation
+  <a class="heading-link" href="#3-organizational-fragmentation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI is not used uniformly across teams.</p>
+<p>Different groups:</p>
+<ul>
+<li>use different models</li>
+<li>use different prompting styles</li>
+<li>apply different review rules</li>
+<li>hold different quality expectations</li>
+</ul>
+<p>The result?</p>
+<p><strong>Architecture fragments.</strong></p>
+<p>Example pattern:</p>
+<ul>
+<li>Team A uses GPT-5, generating functional-style patterns</li>
+<li>Team B uses Claude with heavy OOP patterns</li>
+<li>Team C uses Copilot with mixed local-context conventions
+In three months, the codebase will resemble that of three separate companies.</li>
+</ul>
+<p>This is not a tooling failure.
+It is a <strong>governance failure</strong>.
+Without leadership-defined constraints, AI accelerates divergence.</p>
+<p>Divergence accelerates entropy. Entropy accelerates debt.</p>
+<h2 id="why-ai-induced-technical-debt-is-exponential">
+  Why AI-Induced Technical Debt Is Exponential
+  <a class="heading-link" href="#why-ai-induced-technical-debt-is-exponential">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Traditional (human-generated) technical debt is linear:</p>
+<blockquote>
+<p>One shortcut → one future cost.</p>
+</blockquote>
+<p>AI-generated debt is exponential:</p>
+<blockquote>
+<p>One prompt → 30–200 lines of code → multiple clones → replicated flaws → expanded maintenance surface → cascading architectural risk.</p>
+</blockquote>
+<p>To visualize this:
+
+    <p style="">
+        <img src="/assets/img/GoodSoftware_pt3_diagram_B.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Exponential growth of technical debt</strong> ∙ 05 December 2025
+        </span>
+    </p>
+</p>
+<p>The curve rises because:</p>
+<ol>
+<li><strong>Duplication amplifies defects</strong></li>
+<li><strong>New complexity layers multiply review effort</strong></li>
+<li><strong>Model drift keeps generating incompatible shapes</strong></li>
+<li><strong>AI replicates its own mistakes</strong></li>
+<li><strong>Human reviewers cannot scale with machine output</strong></li>
+</ol>
+<p>AI does not create “bad code.”</p>
+<p>It creates <strong>more code than your governance model can safely absorb</strong>.</p>
+<h2 id="vibe-then-verify-modern-quality-gates">
+  “Vibe Then Verify”: Modern Quality Gates
+  <a class="heading-link" href="#vibe-then-verify-modern-quality-gates">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><a href="https://securityboulevard.com/2025/09/quality-assurance-in-the-ai-era-a-leadership-imperative/"  class="external-link" target="_blank" rel="noopener">S&amp;P Global</a> describes the new paradigm clearly:</p>
+<blockquote>
+<p><em>AI generates plausible output; humans must create the true output.</em></p>
+</blockquote>
+<p>This requires a heavier emphasis on:</p>
+<ul>
+<li>context validation</li>
+<li>dependency validation</li>
+<li>architectural boundary checks</li>
+<li>hallucination detection</li>
+<li>duplication scanning</li>
+<li>complexity scoring</li>
+</ul>
+<h3 id="quality-must-be-front-loaded">
+  Quality must be front-loaded.
+  <a class="heading-link" href="#quality-must-be-front-loaded">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Refactoring must be scheduled.
+Review must shift from “bug detection” to <strong>“architectural drift prevention.”</strong>
+These needs form the basis for a new operating model:
+
+    <p style="">
+        <img src="/assets/img/GoodSoftware_pt3_diagram_C.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Three Vectors of AI Technical Debt</strong> ∙ 05 December 2025
+        </span>
+    </p>
+
+AI writes drafts.</p>
+<p>Leadership defines standards.</p>
+<p>Quality emerges from the combination.</p>
+<h2 id="the-ownership-paradox-when-everyone-can-generate-code">
+  The Ownership Paradox: When Everyone Can Generate Code
+  <a class="heading-link" href="#the-ownership-paradox-when-everyone-can-generate-code">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI creates a new, subtle kind of risk: <strong>ownership dilution</strong>.</p>
+<p>Historically:</p>
+<ul>
+<li>Engineers wrote code</li>
+<li>Engineers understood code</li>
+<li>Engineers maintained code</li>
+</ul>
+<p>With AI:</p>
+<ul>
+<li>Code appears without deep author comprehension</li>
+<li>Ownership becomes blurred</li>
+<li>Large subsystems are generated without institutional memory</li>
+</ul>
+<p>The true danger is <em>unowned complexity</em>.</p>
+<p>This is most evident in:</p>
+<ul>
+<li>microservice ecosystems</li>
+<li>large internal platforms</li>
+<li>integration-heavy domains</li>
+<li>data transformation pipelines</li>
+</ul>
+<p>My earlier article <a href="https://www.noheadx.me/leadership/2024/05/02/how-to-tell-a-leader-from-a-manager.html"  class="external-link" target="_blank" rel="noopener"><em>“Leaders vs. Managers”</em></a> explains this dynamic well:</p>
+<ul>
+<li>Leadership provides clarity of purpose and ownership; management coordinates work.</li>
+<li>AI destabilizes this distinction by flooding the system with code faster than ownership can form.</li>
+</ul>
+<h2 id="the-stripe--airbnb-benchmark-quality-requires-human-intent">
+  The Stripe &amp; Airbnb Benchmark: Quality Requires Human Intent
+  <a class="heading-link" href="#the-stripe--airbnb-benchmark-quality-requires-human-intent">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Systems known for resilience—Stripe, Airbnb—deliver consistency for one reason:</p>
+<blockquote>
+<p><strong>They are designed intentionally, not accumulated accidentally.</strong>
+Examples:</p>
+</blockquote>
+<ul>
+<li>Stripe’s zero-downtime data movement platform achieves <a href="https://www.infoq.com/news/2025/11/stripe-data-movement-platform/"  class="external-link" target="_blank" rel="noopener"><strong>99.9995% availability</strong></a></li>
+<li><a href="https://www.infoq.com/news/2025/11/airbnb-adaptive-traffic-control/"  class="external-link" target="_blank" rel="noopener">Airbnb’s adaptive traffic control system</a>
+enforces runtime architectural boundaries</li>
+</ul>
+<p>These teams do not rely on AI to define quality.</p>
+<p>They rely on:</p>
+<ul>
+<li>leadership clarity</li>
+<li>architectural boundaries</li>
+<li>strict review culture</li>
+<li>investment in resilience</li>
+<li>intentional system evolution
+AI may help build components.</li>
+</ul>
+<p>But <strong>human leadership determines the system’s integrity</strong>.</p>
+<h2 id="leadership-responsibilities-in-an-ai-driven-organization">
+  Leadership Responsibilities in an AI-Driven Organization
+  <a class="heading-link" href="#leadership-responsibilities-in-an-ai-driven-organization">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Leadership is about setting intent, standards, and guardrails—not controlling tasks.
+To maintain quality when AI generates code, leadership must:</p>
+<h3 id="1-define-architectural-intent">
+  1. <strong>Define architectural intent</strong>
+  <a class="heading-link" href="#1-define-architectural-intent">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Without intent, AI amplifies ambiguity.</p>
+<h3 id="2-enforce-one-standard-for-ai-and-human-code">
+  2. <strong>Enforce one standard for AI and human code</strong>
+  <a class="heading-link" href="#2-enforce-one-standard-for-ai-and-human-code">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>No exceptions. No “temporary AI shortcuts.”</p>
+<h3 id="3-mandate-quality-gates">
+  3. <strong>Mandate quality gates</strong>
+  <a class="heading-link" href="#3-mandate-quality-gates">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Security, duplication, boundaries, complexity.</p>
+<h3 id="4-classify-work">
+  4. <strong>Classify work</strong>
+  <a class="heading-link" href="#4-classify-work">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Some areas are safe for AI. Others require human reasoning.</p>
+<h3 id="5-fund-refactoring">
+  5. <strong>Fund refactoring</strong>
+  <a class="heading-link" href="#5-fund-refactoring">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Debt compounds faster than before.</p>
+<h3 id="6-prevent-fragmentation">
+  6. <strong>Prevent fragmentation</strong>
+  <a class="heading-link" href="#6-prevent-fragmentation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Consistent models, conventions, constraints, and review rules.</p>
+<h3 id="7-create-psychological-safety-for-slowing-down">
+  7. <strong>Create psychological safety for slowing down</strong>
+  <a class="heading-link" href="#7-create-psychological-safety-for-slowing-down">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Teams must be able to say:</p>
+<p><em>“AI generated something wrong. We need time.”</em></p>
+<p>If leadership creates pressure that discourages this, AI becomes a liability.</p>
+<h2 id="summary">
+  Summary
+  <a class="heading-link" href="#summary">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>AI does not redefine what “good software” is.</p>
+<p>It simply <strong>accelerates the consequences of unclear leadership</strong>.
+The three vectors—model drift, generation bloat, organizational fragmentation—create exponential technical debt that no team can resolve through effort alone. The only effective countermeasure is intentional leadership that defines boundaries, standards, and expectations.
+Quality now depends less on writing code and more on <strong>reviewing, validating, governing, and owning it</strong>.
+Leadership provides direction and intent.</p>
+<p>Management coordinates tasks.</p>
+<p>AI produces drafts.</p>
+<p>Engineering assembles systems.</p>
+<p>Quality emerges when all four align.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2025
+     Axel Schulz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

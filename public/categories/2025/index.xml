@@ -6,14 +6,14 @@
     <description>Recent content in 2025 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 06:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Team Dynamics When Your &#39;Team&#39; Might Be One Person and an AI</title>
-      <link>http://localhost:1313/posts/2025-12-19-good_software_pt4/</link>
-      <pubDate>Tue, 09 Dec 2025 06:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-12-19-good_software_pt4/</guid>
-      <description>AI changes how teams work, learn, and make decisions. Leadership must understand these shifts to maintain quality and coherence in complex systems.</description>
+      <title>Building Quality When AI Writes Most of Your Code</title>
+      <link>http://localhost:1313/posts/2025-12-14-good_software_pt3/</link>
+      <pubDate>Sun, 14 Dec 2025 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-12-14-good_software_pt3/</guid>
+      <description>AI accelerates output but not judgment. Quality must be engineered deliberately in an era where most code is machine-generated.</description>
     </item>
     <item>
       <title>The Leadership Failures Creating Bad Software at Scale</title>
