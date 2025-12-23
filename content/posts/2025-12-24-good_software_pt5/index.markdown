@@ -1,11 +1,11 @@
 ---
 title: "The Democratization Paradox: Everyone Can Build, Not Everyone Should Maintain"
 subtitle: "Why accessibility accelerates innovation and failure at the same time"
-date: "2025-12-19T06:00:00"
+date: "2025-12-24T06:00:00"
 series: ["What is good software?"]
 part: 5
 summary: "AI and no-code democratize software creation, but maintenance, ownership, and longevity remain scarce skills."
-draft: true
+draft: false
 --- 
 
 ## Introduction
@@ -20,6 +20,14 @@ This gap is no longer theoretical. It is measurable in cost, risk, and organizat
 Democratization does not fail because people build too much software.
 It fails because leadership does not decide what happens after building.
 
+{{< unsafe >}}
+    <p style="">
+        <img src="hero_image.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Generated with AI</strong> ∙ 2 December 2025 at 1:47 pm
+        </span>
+    </p>
+{{< /unsafe >}}
 
 ## Building Is Cheaper Than Ever. Maintenance Is Not.
 
@@ -90,6 +98,14 @@ Leadership typically discovers the problem after an incident, rather than before
 
 Neither option is strategic. Both are avoidable.
 
+{{< unsafe >}}
+    <p style="">
+        <img src="lifecylce_diagram.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>Generated with AI</strong> ∙ 2 December 2025 at 1:47 pm
+        </span>
+    </p>
+{{< /unsafe >}}
 
 ## Democratization and the Rise of Shadow IT and Shadow AI
 

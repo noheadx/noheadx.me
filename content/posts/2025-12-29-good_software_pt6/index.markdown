@@ -23,7 +23,7 @@ This article focuses on leadership practices that make lifecycle decisions expli
 
 ⸻
 
-Building is a Long-Term Commitment
+## Building is a Long-Term Commitment
 
 Building software isn’t just about creating something new. It’s about taking on long-term responsibility for what you build.
 
@@ -46,7 +46,7 @@ Any other situation should be carefully reviewed.
 
 ⸻
 
-Buy Is Not Abdication
+## Buy Is Not Abdication
 
 People often think buying software means handing off responsibility, but really, it just changes what you’re responsible for.
 
@@ -63,7 +63,7 @@ Leadership must treat buy decisions as architectural decisions, not procurement 
 
 ⸻
 
-Disposal Is a Valid Option
+## Disposal Is a Valid Option
 
 Most organizations don’t see disposal as a real option. Old systems stick around because removing them can feel like admitting defeat.
 
@@ -79,7 +79,7 @@ If you never get rid of old systems, your architecture gets bigger, not better.
 
 ⸻
 
-The Cost of Deferred Decisions
+## The Cost of Deferred Decisions
 
 When leadership avoids making lifecycle decisions, teams try to make up for it by making small, local fixes:
  * patching instead of redesigning
@@ -88,7 +88,7 @@ When leadership avoids making lifecycle decisions, teams try to make up for it b
 
 Over time, this makes it harder for the organization to make clear decisions.
 
-Summary
+## Summary
 
 A good software strategy is not about choosing technology, but about selecting lifecycles.
 
