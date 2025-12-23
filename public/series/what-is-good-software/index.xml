@@ -6,8 +6,15 @@
     <description>Recent content in What Is Good Software? on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 06:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/series/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team Dynamics When Your &#39;Team&#39; Might Be One Person and an AI</title>
+      <link>http://localhost:1313/posts/2025-12-19-good_software_pt4/</link>
+      <pubDate>Fri, 19 Dec 2025 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-12-19-good_software_pt4/</guid>
+      <description>AI changes how teams work, learn, and make decisions. Leadership must understand these shifts to maintain quality and coherence in complex systems.</description>
+    </item>
     <item>
       <title>The Leadership Failures Creating Bad Software at Scale</title>
       <link>http://localhost:1313/posts/2025-12-09-good_software_pt2/</link>
