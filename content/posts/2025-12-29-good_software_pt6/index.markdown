@@ -6,7 +6,7 @@ series: ["What is good software?"]
 part: 6
 summary: "Most software becomes problematic because leaders avoid explicit lifecycle decisions."
 categories: ['What is good software?', 'Tech', '2025']
-draft: true
+draft: false
 ---
 
 ## Introduction
