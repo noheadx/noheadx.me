@@ -5,6 +5,7 @@ date: "2025-12-24T06:00:00"
 series: ["What is good software?"]
 part: 5
 summary: "AI and no-code democratize software creation, but maintenance, ownership, and longevity remain scarce skills."
+categories: ['What is good software?', 'Tech', '2025']
 draft: false
 --- 
 

@@ -5,6 +5,7 @@ date: "2026-01-03"
 series: ["What is good software?"]
 part: 7
 summary: "Good software is no longer a single category. Leadership must decide which kind they are building."
+categories: ['What is good software?', 'Tech', '2025']
 draft: true
 ---
 

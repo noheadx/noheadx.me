@@ -6,8 +6,22 @@
     <description>Recent content in 2025 on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Dec 2025 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leadership Practices for the Build, Buy, or Dispose Decision</title>
+      <link>http://localhost:1313/posts/2025-12-29-good_software_pt6/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-12-29-good_software_pt6/</guid>
+      <description>Most software becomes problematic because leaders avoid explicit lifecycle decisions.</description>
+    </item>
+    <item>
+      <title>The Democratization Paradox: Everyone Can Build, Not Everyone Should Maintain</title>
+      <link>http://localhost:1313/posts/2025-12-24-good_software_pt5/</link>
+      <pubDate>Wed, 24 Dec 2025 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-12-24-good_software_pt5/</guid>
+      <description>AI and no-code democratize software creation, but maintenance, ownership, and longevity remain scarce skills.</description>
+    </item>
     <item>
       <title>Team Dynamics When Your &#39;Team&#39; Might Be One Person and an AI</title>
       <link>http://localhost:1313/posts/2025-12-19-good_software_pt4/</link>
