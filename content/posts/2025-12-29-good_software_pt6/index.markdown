@@ -6,7 +6,7 @@ series: ["What is good software?"]
 part: 6
 summary: "Most software becomes problematic because leaders avoid explicit lifecycle decisions."
 categories: ['What is good software?', 'Tech', '2025']
-draft: false
+draft: true
 ---
 
 ## Introduction
@@ -102,6 +102,14 @@ Most organizations still decide based on upfront cost. This is a serious error.
 Leadership must mandate 3–5 year TCO projections before approving any system.
 Without this discipline, organizations optimize for initial spend and inherit long-term liability.
 
+{{< unsafe >}}
+    <p style="">
+        <img src="tco_iceberg.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>The TCO Iceberg - Generated with AI</strong> ∙ 29 December 2025 at 1:47 pm
+        </span>
+    </p>
+{{< /unsafe >}}
 ⸻
 
 ## Dispose Is the Most Avoided and Most Necessary Decision
@@ -116,7 +124,15 @@ The cost of avoiding disposal is measurable:
 [2025 industry research](https://you.stonybrook.edu/freedom/2025/11/08/legacy-system-retirement-decisions-among-enterprise-organizations/)
 * By 2025, 40% of IT budgets are consumed by technical debt maintenance
 Gartner, cited in RecordPoint
-￼
+
+{{< unsafe >}}
+    <p style="">
+        <img src="accumulation_vs_architecture.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>The Accumulation vs. Architecture Contrast - Generated with AI</strong> ∙ 29 December 2025 at 1:47 pm
+        </span>
+    </p>
+{{< /unsafe >}}
 
 Retirement is not failure.
 It is leadership discipline.
@@ -145,6 +161,15 @@ When to Dispose
 
 Avoiding this classification does not keep options open.
 It creates irreversible constraints.
+
+{{< unsafe >}}
+    <p style="">
+        <img src="hero_image_lifecycle_tree.png" style="width:70%;display: block;margin-left: auto;margin-right: auto;"/>
+        <span style="font-size:0.5em;text-align: center;display: block;">
+            <strong>The Lifecycle Decision Tree - Generated with AI</strong> ∙ 29 December 2025 at 1:47 pm
+        </span>
+    </p>
+{{< /unsafe >}}
 
 ⸻
 
