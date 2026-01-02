@@ -6,8 +6,15 @@
     <description>Recent content in What Is Good Software? on The CTO Trap</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 06:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/series/what-is-good-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Good Software in 2025: Knowing the Difference Before You Build</title>
+      <link>http://localhost:1313/posts/2026_01_03-good_software_pt7/</link>
+      <pubDate>Fri, 02 Jan 2026 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026_01_03-good_software_pt7/</guid>
+      <description>Good software is no longer a single category. Leadership must decide which kind they are building, or inherit the consequences of not deciding.</description>
+    </item>
     <item>
       <title>Leadership Practices for the Build, Buy, or Dispose Decision</title>
       <link>http://localhost:1313/posts/2025-12-29-good_software_pt6/</link>
